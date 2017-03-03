@@ -13,6 +13,9 @@
       <sprite>sprites\Nauczyciel_Lewo</sprite>
       <sprite>sprites\Nauczyciel_Tyl</sprite>
     </sprites>
+    <sprites name="Tablica">
+      <sprite>sprites\Tablice</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
