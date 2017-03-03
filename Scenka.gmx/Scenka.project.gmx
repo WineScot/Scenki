@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\Nauczyciel</sprite>
+    <sprite>sprites\Tablice</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
