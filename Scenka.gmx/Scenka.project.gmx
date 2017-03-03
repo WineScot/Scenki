@@ -6,8 +6,13 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\Nauczyciel</sprite>
-    <sprite>sprites\Tablice</sprite>
+    <sprites name="Nauczyciel">
+      <sprite>sprites\Nauczyciel</sprite>
+      <sprite>sprites\Naucyzciel_Przod</sprite>
+      <sprite>sprites\Nauczyciel_Prawo</sprite>
+      <sprite>sprites\Nauczyciel_Lewo</sprite>
+      <sprite>sprites\Nauczyciel_Tyl</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
