@@ -63,12 +63,17 @@
     <object>objects\suicide_object</object>
     <object>objects\fake_temp_object</object>
     <object>objects\Girl_01_object</object>
+    <object>objects\Girl_02_object</object>
     <object>objects\Example_Wall_object</object>
     <object>objects\Table_Object</object>
     <object>objects\Desk_object</object>
     <object>objects\Wall_Przod_object</object>
     <object>objects\Chair_object</object>
+    <object>objects\Collision_object</object>
   </objects>
+  <timelines name="timelines">
+    <timeline>timelines\Timer</timeline>
+  </timelines>
   <rooms name="rooms">
     <room>rooms\Sala_Fizyczna</room>
   </rooms>
