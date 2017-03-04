@@ -16,8 +16,15 @@
       <sprite>sprites\NauczycielLewo</sprite>
       <sprite>sprites\NauczycielTyl</sprite>
     </sprites>
-    <sprites name="Tablica">
-      <sprite>sprites\Tablice</sprite>
+    <sprites name="Suicide">
+      <sprite>sprites\Suicide_Przod</sprite>
+      <sprite>sprites\Suicide_Prawo</sprite>
+      <sprite>sprites\Suicide_Lewo</sprite>
+      <sprite>sprites\Suicide_Tyl</sprite>
+      <sprite>sprites\SuicidePrzod</sprite>
+      <sprite>sprites\SuicidePrawo</sprite>
+      <sprite>sprites\SuicideLewo</sprite>
+      <sprite>sprites\SuicideTyl</sprite>
     </sprites>
     <sprites name="Girl-01">
       <sprite>sprites\Girl_01_Przod</sprite>
@@ -29,15 +36,8 @@
       <sprite>sprites\Girl_01Lewo</sprite>
       <sprite>sprites\Girl_01Tyl</sprite>
     </sprites>
-    <sprites name="Suicide">
-      <sprite>sprites\Suicide_Przod</sprite>
-      <sprite>sprites\Suicide_Prawo</sprite>
-      <sprite>sprites\Suicide_Lewo</sprite>
-      <sprite>sprites\Suicide_Tyl</sprite>
-      <sprite>sprites\SuicidePrzod</sprite>
-      <sprite>sprites\SuicidePrawo</sprite>
-      <sprite>sprites\SuicideLewo</sprite>
-      <sprite>sprites\SuicideTyl</sprite>
+    <sprites name="Tablica">
+      <sprite>sprites\Tablice</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
@@ -47,7 +47,10 @@
   </scripts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
+    <object>objects\suicide_object</object>
+    <object>objects\fake_temp_object</object>
   </objects>
+  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>

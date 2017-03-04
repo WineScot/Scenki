@@ -3,47 +3,49 @@ var left;
 var down;
 var up;
 var nic;
-var obiekt;
-obiekt=0;
-if (obiekt==0) obiekt=sprite_index;
+var akt_kierunek = 2;
 right=keyboard_check(ord('D'));
 left=keyboard_check(ord('A'));
 down=keyboard_check(ord('S'));
 up=keyboard_check(ord('W'));
 nic=keyboard_check(vk_nokey);
 
-image_speed=1/5;
+obiekt.image_speed=1/5;
 
 if (up)
 {
-    y-=4;
-    sprite_index=obiekt-1;
+    obiekt.y-=4;
+    obiekt.sprite_index=(iid*8)+3;
+    akt_kierunek = 0;
 }
 if (down)
 {
-    y+=4;
-    sprite_index=obiekt-4;
+    obiekt.y+=4;
+    obiekt.sprite_index=(iid*8)+0;
+    akt_kierunek = 2;
 }
 
 if (left)
 {
-    x-=4;
-    sprite_index=obiekt-2; 
+    obiekt.x-=4;
+    obiekt.sprite_index=(iid*8)+2; 
+    akt_kierunek = 3;
 }
 
 if(right)
 {
-    x+=4;
-    sprite_index=obiekt-3;
+    obiekt.x+=4;
+    obiekt.sprite_index=(iid*8)+1;
+    akt_kierunek = 1;
 }
-/*if (nic)
+if (nic)
 {
-    if (sprite_index==name+"_Tyl")
-    sprite_index=name+"Tyl";
-    if (sprite_index==name+"Przod")
-    sprite_index=name+"Przod";
-    if (sprite_index==name+"_Lewo")
-    sprite_index=name+"Lewo";
-    if (sprite_index==name+"_Prawo")
-    sprite_index=name+"Prawo";
-}*/
+    if (akt_kierunek == 0)
+    obiekt.sprite_index=(iid*8)+7;
+    if (akt_kierunek == 1)
+    obiekt.sprite_index=(iid*8)+5;
+    if (akt_kierunek == 2)
+    obiekt.sprite_index=(iid*8)+4;
+    if (akt_kierunek == 3)
+    obiekt.sprite_index=(iid*8)+6;
+}
