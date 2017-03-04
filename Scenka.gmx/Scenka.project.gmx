@@ -7,11 +7,14 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Nauczyciel">
-      <sprite>sprites\Nauczyciel</sprite>
       <sprite>sprites\Nauczyciel_Przod</sprite>
       <sprite>sprites\Nauczyciel_Prawo</sprite>
       <sprite>sprites\Nauczyciel_Lewo</sprite>
       <sprite>sprites\Nauczyciel_Tyl</sprite>
+      <sprite>sprites\NauczycielPrzod</sprite>
+      <sprite>sprites\NauczycielPrawo</sprite>
+      <sprite>sprites\NauczycielLewo</sprite>
+      <sprite>sprites\NauczycielTyl</sprite>
     </sprites>
     <sprites name="Tablica">
       <sprite>sprites\Tablice</sprite>
@@ -39,7 +42,12 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <script>scripts\Anim_ruch.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\Nauczyciel_object</object>
+  </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>

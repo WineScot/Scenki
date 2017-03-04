@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>9</bbox_left>
-  <bbox_right>22</bbox_right>
+  <bbox_left>12</bbox_left>
+  <bbox_right>18</bbox_right>
   <bbox_top>2</bbox_top>
-  <bbox_bottom>30</bbox_bottom>
+  <bbox_bottom>29</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,9 +20,6 @@
   <width>32</width>
   <height>32</height>
   <frames>
-    <frame index="0">images\Suicide_Przod_0.png</frame>
-    <frame index="1">images\Suicide_Przod_1.png</frame>
-    <frame index="2">images\Suicide_Przod_2.png</frame>
-    <frame index="3">images\Suicide_Przod_3.png</frame>
+    <frame index="0">images\NauczycielPrawo_0.png</frame>
   </frames>
 </sprite>
