@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Anim_ruch(iid,obiekt);
+            <string>if(czy1) Anim_ruch();
 </string>
           </argument>
         </arguments>

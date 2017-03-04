@@ -48,6 +48,7 @@
       </sprites>
       <sprite>sprites\Desk</sprite>
       <sprite>sprites\Chair</sprite>
+      <sprite>sprites\Drzwi</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -70,9 +71,10 @@
     <object>objects\Wall_Przod_object</object>
     <object>objects\Chair_object</object>
     <object>objects\Collision_object</object>
+    <object>objects\Drzwi_object</object>
   </objects>
   <timelines name="timelines">
-    <timeline>timelines\Timer</timeline>
+    <timeline>timelines\Table_Annimation</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Sala_Fizyczna</room>

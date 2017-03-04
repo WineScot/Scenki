@@ -13,6 +13,14 @@
   <code>globalvar iid;
 globalvar obiekt;
 globalvar akt_kierunek;
+globalvar up, down, right, left, nic;
+globalvar czy1;
+czy1=1;
+up=0;
+down=0;
+right=0;
+left=0;
+nic=0;
 akt_kierunek=2;
 iid = 0;
 globalvar t;
@@ -61,7 +69,7 @@ obiekt = Nauczyciel_object.id;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Nauczyciel_object" x="544" y="32" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Nauczyciel_object" x="128" y="160" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="fake_temp_object" x="992" y="736" name="inst_4ECB11CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="576" y="0" name="inst_98BABF39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="576" y="32" name="inst_5B7DD34B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -129,13 +137,13 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Example_Wall_object" x="416" y="224" name="inst_AA0A0ABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="416" y="256" name="inst_28976CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="416" y="288" name="inst_66A8AE14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="288" y="224" name="inst_72DF53C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="288" y="288" name="inst_0B51FCA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="288" y="352" name="inst_D10AF044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="64" y="224" name="inst_CA783B61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="64" y="288" name="inst_8408A499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Desk_object" x="64" y="352" name="inst_8B9B1765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Girl_01_object" x="512" y="320" name="inst_7504DD78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="256" y="192" name="inst_72DF53C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="256" y="256" name="inst_0B51FCA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="256" y="320" name="inst_D10AF044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="64" y="192" name="inst_CA783B61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="64" y="256" name="inst_8408A499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Desk_object" x="64" y="320" name="inst_8B9B1765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_01_object" x="192" y="160" name="inst_7504DD78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="224" y="0" name="inst_09283E94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="256" y="0" name="inst_ED60EE7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="288" y="0" name="inst_918C387B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -145,7 +153,7 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Wall_Przod_object" x="416" y="0" name="inst_F2F1658E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="32" y="0" name="inst_166601F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Table_Object" x="160" y="96" name="inst_12E70D7D" locked="0" code="" scaleX="4.21875" scaleY="3.5" colour="4294967295" rotation="0"/>
-    <instance objName="suicide_object" x="512" y="288" name="inst_0DABF3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="suicide_object" x="160" y="160" name="inst_0DABF3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="288" y="224" name="inst_04B29ABB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="224" name="inst_1CABFED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="288" name="inst_B2817E56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -153,11 +161,19 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Chair_object" x="288" y="352" name="inst_496839BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="352" name="inst_98A701FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="64" y="352" name="inst_9234B0F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="32" y="352" name="inst_042B09AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="96" y="352" name="inst_042B09AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="64" y="288" name="inst_71CD1F74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="32" y="288" name="inst_C6614FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="64" y="224" name="inst_A2EC4645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="32" y="224" name="inst_9616CE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="128" y="288" name="inst_C6614FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="96" y="288" name="inst_A2EC4645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="96" y="224" name="inst_9616CE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Drzwi_object" x="448" y="320" name="inst_AD58CC2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Drzwi_object" x="448" y="352" name="inst_BAED4B9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="64" y="224" name="inst_6C1D31D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="128" y="224" name="inst_A9F4E449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="128" y="352" name="inst_E89F1109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="320" y="352" name="inst_54A9EE77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="320" y="288" name="inst_67AFD6D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="320" y="224" name="inst_37568795" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
