@@ -6,41 +6,53 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprites name="Nauczyciel">
-      <sprite>sprites\Nauczyciel_Przod</sprite>
-      <sprite>sprites\Nauczyciel_Prawo</sprite>
-      <sprite>sprites\Nauczyciel_Lewo</sprite>
-      <sprite>sprites\Nauczyciel_Tyl</sprite>
-      <sprite>sprites\NauczycielPrzod</sprite>
-      <sprite>sprites\NauczycielPrawo</sprite>
-      <sprite>sprites\NauczycielLewo</sprite>
-      <sprite>sprites\NauczycielTyl</sprite>
+    <sprites name="Postacie">
+      <sprites name="Nauczyciel">
+        <sprite>sprites\Nauczyciel_Przod</sprite>
+        <sprite>sprites\Nauczyciel_Prawo</sprite>
+        <sprite>sprites\Nauczyciel_Lewo</sprite>
+        <sprite>sprites\Nauczyciel_Tyl</sprite>
+        <sprite>sprites\NauczycielPrzod</sprite>
+        <sprite>sprites\NauczycielPrawo</sprite>
+        <sprite>sprites\NauczycielLewo</sprite>
+        <sprite>sprites\NauczycielTyl</sprite>
+      </sprites>
+      <sprites name="Suicide">
+        <sprite>sprites\Suicide_Przod</sprite>
+        <sprite>sprites\Suicide_Prawo</sprite>
+        <sprite>sprites\Suicide_Lewo</sprite>
+        <sprite>sprites\Suicide_Tyl</sprite>
+        <sprite>sprites\SuicidePrzod</sprite>
+        <sprite>sprites\SuicidePrawo</sprite>
+        <sprite>sprites\SuicideLewo</sprite>
+        <sprite>sprites\SuicideTyl</sprite>
+      </sprites>
+      <sprites name="Girl-01">
+        <sprite>sprites\Girl_01_Przod</sprite>
+        <sprite>sprites\Girl_01_Prawo</sprite>
+        <sprite>sprites\Girl_01_Lewo</sprite>
+        <sprite>sprites\Girl_01_Tyl</sprite>
+        <sprite>sprites\Girl_01Przod</sprite>
+        <sprite>sprites\Girl_01Prawo</sprite>
+        <sprite>sprites\Girl_01Lewo</sprite>
+        <sprite>sprites\Girl_01Tyl</sprite>
+      </sprites>
     </sprites>
-    <sprites name="Suicide">
-      <sprite>sprites\Suicide_Przod</sprite>
-      <sprite>sprites\Suicide_Prawo</sprite>
-      <sprite>sprites\Suicide_Lewo</sprite>
-      <sprite>sprites\Suicide_Tyl</sprite>
-      <sprite>sprites\SuicidePrzod</sprite>
-      <sprite>sprites\SuicidePrawo</sprite>
-      <sprite>sprites\SuicideLewo</sprite>
-      <sprite>sprites\SuicideTyl</sprite>
-    </sprites>
-    <sprites name="Girl-01">
-      <sprite>sprites\Girl_01_Przod</sprite>
-      <sprite>sprites\Girl_01_Prawo</sprite>
-      <sprite>sprites\Girl_01_Lewo</sprite>
-      <sprite>sprites\Girl_01_Tyl</sprite>
-      <sprite>sprites\Girl_01Przod</sprite>
-      <sprite>sprites\Girl_01Prawo</sprite>
-      <sprite>sprites\Girl_01Lewo</sprite>
-      <sprite>sprites\Girl_01Tyl</sprite>
-    </sprites>
-    <sprites name="Tablica">
-      <sprite>sprites\Tablice</sprite>
+    <sprites name="Sala">
+      <sprites name="Tablica">
+        <sprite>sprites\Tablice</sprite>
+      </sprites>
+      <sprites name="Sciany">
+        <sprite>sprites\Example_Wall</sprite>
+        <sprite>sprites\Wall_Przod</sprite>
+      </sprites>
+      <sprite>sprites\Desk</sprite>
+      <sprite>sprites\Chair</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\Podloga</background>
+  </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Anim_ruch.gml</script>
@@ -51,9 +63,14 @@
     <object>objects\suicide_object</object>
     <object>objects\fake_temp_object</object>
     <object>objects\Girl_01_object</object>
+    <object>objects\Example_Wall_object</object>
+    <object>objects\Table_Object</object>
+    <object>objects\Desk_object</object>
+    <object>objects\Wall_Przod_object</object>
+    <object>objects\Chair_object</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\Sala_Fizyczna</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
