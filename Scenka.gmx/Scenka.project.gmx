@@ -44,13 +44,14 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\Anim_ruch.gml</script>
+    <script>scripts\Zmien_Kierunek.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Girl_01_object</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room0</room>
   </rooms>

@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>iid = 1;
+            <string>t[iid]=akt_kierunek;
+Zmien_Kierunek();
+iid = 1;
+akt_kierunek=t[iid];
 obiekt = suicide_object.id;
 </string>
           </argument>
