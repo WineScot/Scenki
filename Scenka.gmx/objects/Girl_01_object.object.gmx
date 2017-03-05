@@ -5,10 +5,10 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>Collision_object</parentName>
+  <parentName>Example_Object</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="6" enumb="0">
+    <event eventtype="9" enumb="123">
       <action>
         <libid>1</libid>
         <id>603</id>

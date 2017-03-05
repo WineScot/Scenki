@@ -5,10 +5,10 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>Collision_object</parentName>
+  <parentName>Example_Object</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="6" enumb="0">
+    <event eventtype="9" enumb="123">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,11 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>t[iid]=akt_kierunek;
+            <string>/*t[iid]=akt_kierunek;
 Zmien_Kierunek();
 iid = 0;
 akt_kierunek=t[iid];
-obiekt = Nauczyciel_object.id;
+obiekt = Nauczyciel_object.id;*/
+iid=0;
 </string>
           </argument>
         </arguments>

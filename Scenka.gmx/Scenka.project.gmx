@@ -62,9 +62,10 @@
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
-    <object>objects\fake_temp_object</object>
     <object>objects\Girl_01_object</object>
     <object>objects\Girl_02_object</object>
+    <object>objects\Example_Object</object>
+    <object>objects\fake_temp_object</object>
     <object>objects\Example_Wall_object</object>
     <object>objects\Table_Object</object>
     <object>objects\Desk_object</object>
@@ -72,11 +73,15 @@
     <object>objects\Chair_object</object>
     <object>objects\Collision_object</object>
     <object>objects\Drzwi_object</object>
+    <object>objects\obj_grid</object>
+    <object>objects\obj_wall</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
+    <timeline>timelines\Poruszanie</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
   </rooms>
   <help>
