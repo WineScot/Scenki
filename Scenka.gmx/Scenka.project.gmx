@@ -37,6 +37,7 @@
         <sprite>sprites\Girl_01Lewo</sprite>
         <sprite>sprites\Girl_01Tyl</sprite>
       </sprites>
+      <sprite>sprites\Strzalka</sprite>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
@@ -64,17 +65,18 @@
     <object>objects\suicide_object</object>
     <object>objects\Girl_01_object</object>
     <object>objects\Girl_02_object</object>
+    <object>objects\Strzalka_obj</object>
     <object>objects\Example_Object</object>
-    <object>objects\fake_temp_object</object>
     <object>objects\Example_Wall_object</object>
     <object>objects\Table_Object</object>
     <object>objects\Desk_object</object>
     <object>objects\Wall_Przod_object</object>
     <object>objects\Chair_object</object>
-    <object>objects\Collision_object</object>
     <object>objects\Drzwi_object</object>
     <object>objects\obj_grid</object>
     <object>objects\obj_wall</object>
+    <object>objects\Interact_Object</object>
+    <object>objects\fake_temp_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
