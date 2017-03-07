@@ -51,6 +51,8 @@
       <sprite>sprites\Chair</sprite>
       <sprite>sprites\Drzwi</sprite>
     </sprites>
+    <sprite>sprites\Automat</sprite>
+    <sprite>sprites\Toilet</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -77,6 +79,8 @@
     <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Automat_object</object>
+    <object>objects\Toilet_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -85,6 +89,7 @@
   <rooms name="rooms">
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
