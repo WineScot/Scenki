@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -1000;
+            <string>mpos=0;
+
 </string>
           </argument>
         </arguments>
@@ -48,12 +49,52 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(!ds_map_empty(czy))
+            <string>var move=0;
+var tmp=mpos;
+move-=max(keyboard_check_pressed(ord("W")),0);
+move+=max(keyboard_check_pressed(ord("S")),0);
+if(move!=0)
 {
-    var u=ds_map_find_first(czy);
-    x=u.x-15;
-    y=u.y-50;
+    mpos+=move;
+    if(mpos&lt;0)
+    {
+        mpos=array_length_1d(menu)-1;       
+    }
+    if(mpos&gt;array_length_1d(menu)-1)
+    {
+        mpos=0;
+    }
 }
+if(tmp!=mpos) scr_Menu_Postaci(mpos);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_text(view_xview,view_yview,"Menu wyboru postaci:");
+var m;
+for(m=0;m&lt;array_length_1d(menu);m+=1)
+{
+    draw_sprite((menu[m]-1)*8+4,0,view_xview+10,view_yview+32*(m+1));
+}
+draw_sprite(sprite_index,0,view_xview+20,view_yview+mpos*32+16);
 </string>
           </argument>
         </arguments>
