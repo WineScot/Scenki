@@ -59,7 +59,11 @@
   <scripts name="scripts">
     <script>scripts\Anim_ruch.gml</script>
     <script>scripts\Zmien_Kierunek.gml</script>
+    <script>scripts\Text_Box.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
@@ -77,6 +81,7 @@
     <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\text_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
