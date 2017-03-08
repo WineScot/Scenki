@@ -82,12 +82,9 @@
     <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
-<<<<<<< HEAD
     <object>objects\text_obj</object>
-=======
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
->>>>>>> 1eaeafef7c4f975df1182f609e65bf935e16a03f
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
