@@ -51,6 +51,8 @@
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
     </sprites>
+    <sprite>sprites\Automat</sprite>
+    <sprite>sprites\Toilet</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
   </sprites>
   <backgrounds name="background">
@@ -82,6 +84,8 @@
     <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Automat_object</object>
+    <object>objects\Toilet_object</object>
     <object>objects\text_obj</object>
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
@@ -93,6 +97,7 @@
   <rooms name="rooms">
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
