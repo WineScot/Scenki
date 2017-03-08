@@ -93,11 +93,12 @@
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
+    <timeline>timelines\timeline2</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Tutorial</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
-    <room>rooms\Tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
