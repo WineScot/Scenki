@@ -231,7 +231,7 @@ ds_map_add(eq,Nauczyciel_object.id,inventory);</code>
     <instance objName="Automat_object" x="128" y="32" name="inst_6F12C4F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Toilet_object" x="64" y="448" name="inst_870534CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Toilet_object" x="64" y="352" name="inst_18D8C3DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Nauczyciel_object" x="96" y="288" name="inst_D85CE2AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Nauczyciel_object" x="128" y="288" name="inst_D85CE2AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="448" y="224" name="inst_418C8DDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="192" y="352" name="inst_12100645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="224" y="448" name="inst_D630C241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
