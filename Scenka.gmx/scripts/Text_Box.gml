@@ -1,3 +1,4 @@
+//textbox("text",speed,x,y)
 txt = instance_create(argument2,argument3,text_obj);
 
 with(txt)
