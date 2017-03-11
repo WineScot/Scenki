@@ -27,6 +27,56 @@
         <sprite>sprites\SuicideLewo</sprite>
         <sprite>sprites\SuicideTyl</sprite>
       </sprites>
+      <sprites name="Boy-01">
+        <sprite>sprites\Boy_01_Przod</sprite>
+        <sprite>sprites\Boy_01_Prawo</sprite>
+        <sprite>sprites\Boy_01_Lewo</sprite>
+        <sprite>sprites\Boy_01_Tyl</sprite>
+        <sprite>sprites\Boy_01Przod</sprite>
+        <sprite>sprites\Boy_01Prawo</sprite>
+        <sprite>sprites\Boy_01Lewo</sprite>
+        <sprite>sprites\Boy_01Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-02">
+        <sprite>sprites\Boy_02_Przod</sprite>
+        <sprite>sprites\Boy_02_Prawo</sprite>
+        <sprite>sprites\Boy_02_Lewo</sprite>
+        <sprite>sprites\Boy_02_Tyl</sprite>
+        <sprite>sprites\Boy_02Przod</sprite>
+        <sprite>sprites\Boy_02Prawo</sprite>
+        <sprite>sprites\Boy_02Lewo</sprite>
+        <sprite>sprites\Boy_02Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-03">
+        <sprite>sprites\Boy_03_Przod</sprite>
+        <sprite>sprites\Boy_03_Prawo</sprite>
+        <sprite>sprites\Boy_03_Lewo</sprite>
+        <sprite>sprites\Boy_03_Tyl</sprite>
+        <sprite>sprites\Boy_03Przod</sprite>
+        <sprite>sprites\Boy_03Prawo</sprite>
+        <sprite>sprites\Boy_03Lewo</sprite>
+        <sprite>sprites\Boy_03Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-04">
+        <sprite>sprites\Boy_04_Przod</sprite>
+        <sprite>sprites\Boy_04_Prawo</sprite>
+        <sprite>sprites\Boy_04_Lewo</sprite>
+        <sprite>sprites\Boy_04_Tyl</sprite>
+        <sprite>sprites\Boy_04Przod</sprite>
+        <sprite>sprites\Boy_04Prawo</sprite>
+        <sprite>sprites\Boy_04Lewo</sprite>
+        <sprite>sprites\Boy_04Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-05">
+        <sprite>sprites\Boy_05_Przod</sprite>
+        <sprite>sprites\Boy_05_Prawo</sprite>
+        <sprite>sprites\Boy_05_Lewo</sprite>
+        <sprite>sprites\Boy_05_Tyl</sprite>
+        <sprite>sprites\Boy_05Przod</sprite>
+        <sprite>sprites\Boy_05Prawo</sprite>
+        <sprite>sprites\Boy_05Lewo</sprite>
+        <sprite>sprites\Boy_05Tyl</sprite>
+      </sprites>
       <sprites name="Girl-01">
         <sprite>sprites\Girl_01_Przod</sprite>
         <sprite>sprites\Girl_01_Prawo</sprite>
@@ -37,7 +87,7 @@
         <sprite>sprites\Girl_01Lewo</sprite>
         <sprite>sprites\Girl_01Tyl</sprite>
       </sprites>
-	  <sprites name="Girl-02">
+      <sprites name="Girl-02">
         <sprite>sprites\Girl_02_Przod</sprite>
         <sprite>sprites\Girl_02_Prawo</sprite>
         <sprite>sprites\Girl_02_Lewo</sprite>
@@ -47,7 +97,7 @@
         <sprite>sprites\Girl_02Lewo</sprite>
         <sprite>sprites\Girl_02Tyl</sprite>
       </sprites>
-	  <sprites name="Girl-03">
+      <sprites name="Girl-03">
         <sprite>sprites\Girl_03_Przod</sprite>
         <sprite>sprites\Girl_03_Prawo</sprite>
         <sprite>sprites\Girl_03_Lewo</sprite>
@@ -57,7 +107,7 @@
         <sprite>sprites\Girl_03Lewo</sprite>
         <sprite>sprites\Girl_03Tyl</sprite>
       </sprites>
-	  <sprites name="Girl-04">
+      <sprites name="Girl-04">
         <sprite>sprites\Girl_04_Przod</sprite>
         <sprite>sprites\Girl_04_Prawo</sprite>
         <sprite>sprites\Girl_04_Lewo</sprite>
@@ -67,7 +117,7 @@
         <sprite>sprites\Girl_04Lewo</sprite>
         <sprite>sprites\Girl_04Tyl</sprite>
       </sprites>
-	  <sprites name="Girl-05">
+      <sprites name="Girl-05">
         <sprite>sprites\Girl_05_Przod</sprite>
         <sprite>sprites\Girl_05_Prawo</sprite>
         <sprite>sprites\Girl_05_Lewo</sprite>
