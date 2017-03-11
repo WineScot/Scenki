@@ -37,36 +37,6 @@
         <sprite>sprites\Girl_01Lewo</sprite>
         <sprite>sprites\Girl_01Tyl</sprite>
       </sprites>
-      <sprites name="Boy-01">
-        <sprite>sprites\Boy_01_Przod</sprite>
-        <sprite>sprites\Boy_01_Prawo</sprite>
-        <sprite>sprites\Boy_01_Lewo</sprite>
-        <sprite>sprites\Boy_01_Tyl</sprite>
-        <sprite>sprites\Boy_01Przod</sprite>
-        <sprite>sprites\Boy_01Prawo</sprite>
-        <sprite>sprites\Boy_01Lewo</sprite>
-        <sprite>sprites\Boy_01Tyl</sprite>
-      </sprites>
-      <sprites name="Boy-02">
-        <sprite>sprites\Boy_02_Przod</sprite>
-        <sprite>sprites\Boy_02_Prawo</sprite>
-        <sprite>sprites\Boy_02_Lewo</sprite>
-        <sprite>sprites\Boy_02_Tyl</sprite>
-        <sprite>sprites\Boy_02Przod</sprite>
-        <sprite>sprites\Boy_02Prawo</sprite>
-        <sprite>sprites\Boy_02Lewo</sprite>
-        <sprite>sprites\Boy_02Tyl</sprite>
-      </sprites>
-      <sprites name="Boy_03">
-        <sprite>sprites\Boy_03_Przod</sprite>
-        <sprite>sprites\Boy_03_Prawo</sprite>
-        <sprite>sprites\Boy_03_Lewo</sprite>
-        <sprite>sprites\Boy_03_Tyl</sprite>
-        <sprite>sprites\Boy_03Przod</sprite>
-        <sprite>sprites\Boy_03Prawo</sprite>
-        <sprite>sprites\Boy_03Lewo</sprite>
-        <sprite>sprites\Boy_03Tyl</sprite>
-      </sprites>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
@@ -119,14 +89,16 @@
     <object>objects\text_obj</object>
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
+    <object>objects\Dotimelina_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
-    <timeline>timelines\timeline2</timeline>
+    <timeline>timelines\Tutorial_TimeLine</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
+    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
   </rooms>
