@@ -161,8 +161,16 @@
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
+    <object>objects\Boy_01_object</object>
+    <object>objects\Boy_02_object</object>
+    <object>objects\Boy_03_object</object>
+    <object>objects\Boy_04_object</object>
+    <object>objects\Boy_05_object</object>
     <object>objects\Girl_01_object</object>
     <object>objects\Girl_02_object</object>
+    <object>objects\Girl_03_object</object>
+    <object>objects\Girl_04_object</object>
+    <object>objects\Girl_05_object</object>
     <object>objects\Example_Object</object>
     <object>objects\Example_Wall_object</object>
     <object>objects\Table_Object</object>
