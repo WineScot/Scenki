@@ -32,7 +32,41 @@ path=path_add();
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Interact_Object">
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Poruszanie sie do ustalonych pozycji przez TimeLine
+if(ds_map_exists(czy,id))
+{
+    if(mp_grid_path(global.grid,path,x,y,px,py,1))
+    {
+        path_start(path,4,path_action_stop,false);
+        timeline_index=Poruszanie;
+        timeline_position=0;
+        timeline_running=true;
+    }
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Table_Object">
       <action>
         <libid>1</libid>
         <id>115</id>
@@ -75,7 +109,7 @@ path=path_add();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Poruszanie sie do myszki
+            <string>///Poruszanie sie do myszki
 if(ds_map_exists(czy,id))
 {
     var mx=(mouse_x div 32)*32+16;
@@ -112,6 +146,29 @@ if(ds_map_exists(czy,id))
             <kind>1</kind>
             <string>ds_map_clear(czy);
 ds_map_clear(kierunek);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="68">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Text_Box("Przykladowy tekst# druga linigjaka",0.5,x,y);
 </string>
           </argument>
         </arguments>

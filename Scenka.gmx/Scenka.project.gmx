@@ -51,6 +51,8 @@
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
     </sprites>
+    <sprite>sprites\Automat</sprite>
+    <sprite>sprites\Toilet</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
   </sprites>
   <backgrounds name="background">
@@ -60,8 +62,12 @@
   <scripts name="scripts">
     <script>scripts\Anim_ruch.gml</script>
     <script>scripts\Zmien_Kierunek.gml</script>
+    <script>scripts\Text_Box.gml</script>
     <script>scripts\scr_Menu_Postaci.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
@@ -78,14 +84,21 @@
     <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Automat_object</object>
+    <object>objects\Toilet_object</object>
+    <object>objects\text_obj</object>
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
+    <object>objects\Dotimelina_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
+    <timeline>timelines\Tutorial_TimeLine</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Tutorial</room>
+    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
   </rooms>
