@@ -29,11 +29,11 @@ menu[2]=3;
 ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
 ds_map_add(kierunek,ds_map_find_value(iid,menu[0]),0);
 
-globalvar inventory; //mapa do ekwipunku
+globalvar inventory,eq; //mapa do ekwipunku
 inventory=ds_map_create();
-
-ds_map_add(inventory,1,1);
-ds_map_add(inventory,Chair,1);</code>
+eq=ds_map_create();
+ds_map_add(inventory,Chair,1);
+ds_map_add(eq,Nauczyciel_object.id,inventory);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
