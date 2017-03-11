@@ -37,6 +37,46 @@
         <sprite>sprites\Girl_01Lewo</sprite>
         <sprite>sprites\Girl_01Tyl</sprite>
       </sprites>
+	  <sprites name="Girl-02">
+        <sprite>sprites\Girl_02_Przod</sprite>
+        <sprite>sprites\Girl_02_Prawo</sprite>
+        <sprite>sprites\Girl_02_Lewo</sprite>
+        <sprite>sprites\Girl_02_Tyl</sprite>
+        <sprite>sprites\Girl_02Przod</sprite>
+        <sprite>sprites\Girl_02Prawo</sprite>
+        <sprite>sprites\Girl_02Lewo</sprite>
+        <sprite>sprites\Girl_02Tyl</sprite>
+      </sprites>
+	  <sprites name="Girl-03">
+        <sprite>sprites\Girl_03_Przod</sprite>
+        <sprite>sprites\Girl_03_Prawo</sprite>
+        <sprite>sprites\Girl_03_Lewo</sprite>
+        <sprite>sprites\Girl_03_Tyl</sprite>
+        <sprite>sprites\Girl_03Przod</sprite>
+        <sprite>sprites\Girl_03Prawo</sprite>
+        <sprite>sprites\Girl_03Lewo</sprite>
+        <sprite>sprites\Girl_03Tyl</sprite>
+      </sprites>
+	  <sprites name="Girl-04">
+        <sprite>sprites\Girl_04_Przod</sprite>
+        <sprite>sprites\Girl_04_Prawo</sprite>
+        <sprite>sprites\Girl_04_Lewo</sprite>
+        <sprite>sprites\Girl_04_Tyl</sprite>
+        <sprite>sprites\Girl_04Przod</sprite>
+        <sprite>sprites\Girl_04Prawo</sprite>
+        <sprite>sprites\Girl_04Lewo</sprite>
+        <sprite>sprites\Girl_04Tyl</sprite>
+      </sprites>
+	  <sprites name="Girl-05">
+        <sprite>sprites\Girl_05_Przod</sprite>
+        <sprite>sprites\Girl_05_Prawo</sprite>
+        <sprite>sprites\Girl_05_Lewo</sprite>
+        <sprite>sprites\Girl_05_Tyl</sprite>
+        <sprite>sprites\Girl_05Przod</sprite>
+        <sprite>sprites\Girl_05Prawo</sprite>
+        <sprite>sprites\Girl_05Lewo</sprite>
+        <sprite>sprites\Girl_05Tyl</sprite>
+      </sprites>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
