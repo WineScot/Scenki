@@ -19,15 +19,13 @@ pos2=ds_map_create();
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 ds_map_add(iid,1,Nauczyciel_object.id);
-ds_map_add(iid,2,suicide_object.id);
-ds_map_add(iid,3,Girl_01_object.id);
 
 globalvar menu; //do menu wybierania postaci
 menu[0]=1;
 menu[1]=2;
 menu[2]=3;
-//ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
-//ds_map_add(kierunek,ds_map_find_value(iid,menu[0]),0);
+ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
+ds_map_add(kierunek,ds_map_find_value(iid,menu[0]),0);
 
 globalvar inventory,eq; //mapa do ekwipunku
 inventory=ds_map_create();
@@ -35,8 +33,8 @@ eq=ds_map_create();
 ds_map_add(inventory,Chair,1);
 ds_map_add(eq,Nauczyciel_object.id,inventory);
 
-//wywołanie timelina scenki
-instance_create(1,1,Dotimelina_object);</code>
+globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
+czy2=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -241,10 +239,9 @@ instance_create(1,1,Dotimelina_object);</code>
     <instance objName="Interact_Object" x="224" y="416" name="inst_043D3F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Interact_Object" x="224" y="384" name="inst_B8F5CD14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ekwipunek_obj" x="480" y="32" name="inst_26D2B063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Girl_01_object" x="256" y="608" name="inst_29FDBC0C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="suicide_object" x="224" y="608" name="inst_13EFA597" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Nauczyciel_object" x="288" y="288" name="inst_9315A5A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Menu_Wybierania_Postaci_obj" x="480" y="96" name="inst_23CECA26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="640" y="0" name="inst_5D48D344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

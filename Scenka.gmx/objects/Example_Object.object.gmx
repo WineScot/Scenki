@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>//Tworzenie drogi
 path=path_add();
+depth=-1000;
 </string>
           </argument>
         </arguments>
@@ -50,6 +51,7 @@ path=path_add();
           <argument>
             <kind>1</kind>
             <string>///Poruszanie sie do ustalonych pozycji przez TimeLine
+if(czy2)
 if(ds_map_exists(czy,id))
 {
     if(mp_grid_path(global.grid,path,x,y,px,py,1))
@@ -110,6 +112,7 @@ if(ds_map_exists(czy,id))
           <argument>
             <kind>1</kind>
             <string>///Poruszanie sie do myszki
+if(!czy2)
 if(ds_map_exists(czy,id))
 {
     var mx=(mouse_x div 32)*32+16;
@@ -169,6 +172,114 @@ ds_map_clear(kierunek);
           <argument>
             <kind>1</kind>
             <string>Text_Box("Przykladowy tekst# druga linigjaka",0.5,x,y);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="40">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(!czy2)
+if(ds_map_exists(czy,id))
+{
+    Ruch_Down();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="39">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(!czy2)
+if(ds_map_exists(czy,id))
+{
+    Ruch_Right();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="38">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(!czy2)
+if(ds_map_exists(czy,id))
+{
+    Ruch_Up();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="37">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(!czy2)
+if(ds_map_exists(czy,id))
+{
+    Ruch_Left();
+}
 </string>
           </argument>
         </arguments>

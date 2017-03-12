@@ -154,9 +154,14 @@
     <script>scripts\Zmien_Kierunek.gml</script>
     <script>scripts\Text_Box.gml</script>
     <script>scripts\scr_Menu_Postaci.gml</script>
+    <script>scripts\Ruch_Down.gml</script>
+    <script>scripts\Ruch_Up.gml</script>
+    <script>scripts\Ruch_Right.gml</script>
+    <script>scripts\Ruch_Left.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>
+    <font>fonts\Long_Int</font>
   </fonts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
@@ -188,10 +193,12 @@
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
     <object>objects\Dotimelina_object</object>
+    <object>objects\Timer_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
+    <timeline>timelines\Timer_TimeLine</timeline>
     <timeline>timelines\Tutorial_TimeLine</timeline>
   </timelines>
   <rooms name="rooms">

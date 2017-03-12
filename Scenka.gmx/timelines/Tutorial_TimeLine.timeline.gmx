@@ -479,7 +479,7 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>px=368;
-py=160;
+py=140;
 ds_map_add(czy,Girl_05_object.id,1);
 </string>
           </argument>
@@ -653,7 +653,7 @@ Boy_04_object.id.sprite_index=52;
     </event>
   </entry>
   <entry>
-    <step>570</step>
+    <step>575</step>
     <event>
       <action>
         <libid>1</libid>
@@ -671,7 +671,7 @@ Boy_04_object.id.sprite_index=52;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Girl_05_object.id.sprite_index=92;
+            <string>Girl_05_object.id.sprite_index=Girl_05Przod;
 </string>
           </argument>
         </arguments>
