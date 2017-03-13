@@ -19,9 +19,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar pkt_x, pkt_y;
+            <string>globalvar pkt_x, pkt_y, active, poczatek;
 pkt_x[0]=352;
 pkt_y[0]=224;
+active[0]=1;
+poczatek=0;
 
 </string>
           </argument>

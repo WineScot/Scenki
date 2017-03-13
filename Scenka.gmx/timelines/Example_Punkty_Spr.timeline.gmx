@@ -21,10 +21,16 @@
             <kind>1</kind>
             <string>var player=ds_map_find_first(czy);
 var m;
-for(m=0;m&lt;array_length_1d(pkt_x);m++)
+var zakres_bledu=32;
+for(m=poczatek;m&lt;array_length_1d(pkt_x);m++)
+if(active[m])
 {
-    if(player.x&lt;=pkt_x[m])
-    punkty+=10;   
+    if(player.x&lt;=pkt_x[m]+zakres_bledu &amp;&amp; player.x&gt;=pkt_x[m]-zakres_bledu)
+    if(player.y&lt;=pkt_y[m]+zakres_bledu &amp;&amp; player.y&gt;=pkt_y[m]-zakres_bledu)
+    {
+        punkty+=10;
+        active[m]=0;
+    }   
 }
 </string>
           </argument>
