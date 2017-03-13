@@ -194,14 +194,20 @@
     <object>objects\Ekwipunek_obj</object>
     <object>objects\Dotimelina_object</object>
     <object>objects\Timer_object</object>
+    <object>objects\Punkty_object</object>
+    <object>objects\Example_Dotimelina_1_object</object>
+    <object>objects\Example_Dotimelina_2_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
     <timeline>timelines\Timer_TimeLine</timeline>
     <timeline>timelines\Tutorial_TimeLine</timeline>
+    <timeline>timelines\Example_Punkty_Add</timeline>
+    <timeline>timelines\Example_Punkty_Spr</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Example_Room</room>
