@@ -27,6 +27,56 @@
         <sprite>sprites\SuicideLewo</sprite>
         <sprite>sprites\SuicideTyl</sprite>
       </sprites>
+      <sprites name="Boy-01">
+        <sprite>sprites\Boy_01_Przod</sprite>
+        <sprite>sprites\Boy_01_Prawo</sprite>
+        <sprite>sprites\Boy_01_Lewo</sprite>
+        <sprite>sprites\Boy_01_Tyl</sprite>
+        <sprite>sprites\Boy_01Przod</sprite>
+        <sprite>sprites\Boy_01Prawo</sprite>
+        <sprite>sprites\Boy_01Lewo</sprite>
+        <sprite>sprites\Boy_01Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-02">
+        <sprite>sprites\Boy_02_Przod</sprite>
+        <sprite>sprites\Boy_02_Prawo</sprite>
+        <sprite>sprites\Boy_02_Lewo</sprite>
+        <sprite>sprites\Boy_02_Tyl</sprite>
+        <sprite>sprites\Boy_02Przod</sprite>
+        <sprite>sprites\Boy_02Prawo</sprite>
+        <sprite>sprites\Boy_02Lewo</sprite>
+        <sprite>sprites\Boy_02Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-03">
+        <sprite>sprites\Boy_03_Przod</sprite>
+        <sprite>sprites\Boy_03_Prawo</sprite>
+        <sprite>sprites\Boy_03_Lewo</sprite>
+        <sprite>sprites\Boy_03_Tyl</sprite>
+        <sprite>sprites\Boy_03Przod</sprite>
+        <sprite>sprites\Boy_03Prawo</sprite>
+        <sprite>sprites\Boy_03Lewo</sprite>
+        <sprite>sprites\Boy_03Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-04">
+        <sprite>sprites\Boy_04_Przod</sprite>
+        <sprite>sprites\Boy_04_Prawo</sprite>
+        <sprite>sprites\Boy_04_Lewo</sprite>
+        <sprite>sprites\Boy_04_Tyl</sprite>
+        <sprite>sprites\Boy_04Przod</sprite>
+        <sprite>sprites\Boy_04Prawo</sprite>
+        <sprite>sprites\Boy_04Lewo</sprite>
+        <sprite>sprites\Boy_04Tyl</sprite>
+      </sprites>
+      <sprites name="Boy-05">
+        <sprite>sprites\Boy_05_Przod</sprite>
+        <sprite>sprites\Boy_05_Prawo</sprite>
+        <sprite>sprites\Boy_05_Lewo</sprite>
+        <sprite>sprites\Boy_05_Tyl</sprite>
+        <sprite>sprites\Boy_05Przod</sprite>
+        <sprite>sprites\Boy_05Prawo</sprite>
+        <sprite>sprites\Boy_05Lewo</sprite>
+        <sprite>sprites\Boy_05Tyl</sprite>
+      </sprites>
       <sprites name="Girl-01">
         <sprite>sprites\Girl_01_Przod</sprite>
         <sprite>sprites\Girl_01_Prawo</sprite>
@@ -36,6 +86,46 @@
         <sprite>sprites\Girl_01Prawo</sprite>
         <sprite>sprites\Girl_01Lewo</sprite>
         <sprite>sprites\Girl_01Tyl</sprite>
+      </sprites>
+      <sprites name="Girl-02">
+        <sprite>sprites\Girl_02_Przod</sprite>
+        <sprite>sprites\Girl_02_Prawo</sprite>
+        <sprite>sprites\Girl_02_Lewo</sprite>
+        <sprite>sprites\Girl_02_Tyl</sprite>
+        <sprite>sprites\Girl_02Przod</sprite>
+        <sprite>sprites\Girl_02Prawo</sprite>
+        <sprite>sprites\Girl_02Lewo</sprite>
+        <sprite>sprites\Girl_02Tyl</sprite>
+      </sprites>
+      <sprites name="Girl-03">
+        <sprite>sprites\Girl_03_Przod</sprite>
+        <sprite>sprites\Girl_03_Prawo</sprite>
+        <sprite>sprites\Girl_03_Lewo</sprite>
+        <sprite>sprites\Girl_03_Tyl</sprite>
+        <sprite>sprites\Girl_03Przod</sprite>
+        <sprite>sprites\Girl_03Prawo</sprite>
+        <sprite>sprites\Girl_03Lewo</sprite>
+        <sprite>sprites\Girl_03Tyl</sprite>
+      </sprites>
+      <sprites name="Girl-04">
+        <sprite>sprites\Girl_04_Przod</sprite>
+        <sprite>sprites\Girl_04_Prawo</sprite>
+        <sprite>sprites\Girl_04_Lewo</sprite>
+        <sprite>sprites\Girl_04_Tyl</sprite>
+        <sprite>sprites\Girl_04Przod</sprite>
+        <sprite>sprites\Girl_04Prawo</sprite>
+        <sprite>sprites\Girl_04Lewo</sprite>
+        <sprite>sprites\Girl_04Tyl</sprite>
+      </sprites>
+      <sprites name="Girl-05">
+        <sprite>sprites\Girl_05_Przod</sprite>
+        <sprite>sprites\Girl_05_Prawo</sprite>
+        <sprite>sprites\Girl_05_Lewo</sprite>
+        <sprite>sprites\Girl_05_Tyl</sprite>
+        <sprite>sprites\Girl_05Przod</sprite>
+        <sprite>sprites\Girl_05Prawo</sprite>
+        <sprite>sprites\Girl_05Lewo</sprite>
+        <sprite>sprites\Girl_05Tyl</sprite>
       </sprites>
     </sprites>
     <sprites name="Sala">
@@ -64,15 +154,28 @@
     <script>scripts\Zmien_Kierunek.gml</script>
     <script>scripts\Text_Box.gml</script>
     <script>scripts\scr_Menu_Postaci.gml</script>
+    <script>scripts\Ruch_Down.gml</script>
+    <script>scripts\Ruch_Up.gml</script>
+    <script>scripts\Ruch_Right.gml</script>
+    <script>scripts\Ruch_Left.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>
+    <font>fonts\Long_Int</font>
   </fonts>
   <objects name="objects">
     <object>objects\Nauczyciel_object</object>
     <object>objects\suicide_object</object>
+    <object>objects\Boy_01_object</object>
+    <object>objects\Boy_02_object</object>
+    <object>objects\Boy_03_object</object>
+    <object>objects\Boy_04_object</object>
+    <object>objects\Boy_05_object</object>
     <object>objects\Girl_01_object</object>
     <object>objects\Girl_02_object</object>
+    <object>objects\Girl_03_object</object>
+    <object>objects\Girl_04_object</object>
+    <object>objects\Girl_05_object</object>
     <object>objects\Example_Object</object>
     <object>objects\Example_Wall_object</object>
     <object>objects\Table_Object</object>
@@ -91,13 +194,22 @@
     <object>objects\Ekwipunek_obj</object>
     <object>objects\Dotimelina_object</object>
     <object>objects\znacznik_obj</object>
+    <object>objects\Timer_object</object>
+    <object>objects\Punkty_object</object>
+    <object>objects\Example_Dotimelina_1_object</object>
+    <object>objects\Example_Dotimelina_2_object</object>
+    <object>objects\face_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
     <timeline>timelines\Poruszanie</timeline>
+    <timeline>timelines\Timer_TimeLine</timeline>
     <timeline>timelines\Tutorial_TimeLine</timeline>
+    <timeline>timelines\Example_Punkty_Add</timeline>
+    <timeline>timelines\Example_Punkty_Spr</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Example_Room</room>

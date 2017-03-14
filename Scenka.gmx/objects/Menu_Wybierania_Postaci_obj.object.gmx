@@ -3,7 +3,7 @@
   <spriteName>Strzalka</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -88,7 +88,9 @@ if(tmp!=mpos) scr_Menu_Postaci(mpos);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(view_xview,view_yview,"Menu wyboru postaci:");
+            <string>draw_set_font(fnt);
+draw_set_colour(c_red);
+draw_text(view_xview,view_yview,"Menu wyboru postaci:");
 var m;
 for(m=0;m&lt;array_length_1d(menu);m+=1)
 {
