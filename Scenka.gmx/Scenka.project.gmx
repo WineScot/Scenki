@@ -199,6 +199,7 @@
     <object>objects\Example_Dotimelina_1_object</object>
     <object>objects\Example_Dotimelina_2_object</object>
     <object>objects\face_obj</object>
+    <object>objects\object35</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>

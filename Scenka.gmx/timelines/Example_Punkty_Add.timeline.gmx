@@ -19,15 +19,18 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar pkt_x, pkt_y, active, poczatek, idobject, moment, zwrot, przedmiot; //mamy tu dodac interakcje z instancja
+            <string>globalvar pkt_x, pkt_y, active, poczatek, idobject, moment, zwrot, mapMapEq, thingOfItm ; //mamy tu dodac interakcje z instancja
 moment=0;
 pkt_x[moment]=352;
 pkt_y[moment]=224;
-active[moment]=1;
+active[moment]=15;
 idobject[moment]=1;
 zwrot[moment]=(idobject[moment]-1)*8+4;
-przedmiot[moment]=ds_map_create();
-ds_map_add(przedmiot[moment],0,1);
+mapMapEq=ds_map_create();
+thingOfItm=ds_map_create();
+ds_map_add(thingOfItm,0,1);
+ds_map_add(mapMapEq,moment,thingOfItm);
+
 poczatek=0;
 
 </string>
@@ -56,7 +59,7 @@ poczatek=0;
           <argument>
             <kind>1</kind>
             <string>active[0]=0;
-poczatek++;
+
 </string>
           </argument>
         </arguments>
