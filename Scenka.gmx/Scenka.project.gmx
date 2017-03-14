@@ -193,10 +193,12 @@
     <object>objects\Menu_Wybierania_Postaci_obj</object>
     <object>objects\Ekwipunek_obj</object>
     <object>objects\Dotimelina_object</object>
+    <object>objects\znacznik_obj</object>
     <object>objects\Timer_object</object>
     <object>objects\Punkty_object</object>
     <object>objects\Example_Dotimelina_1_object</object>
     <object>objects\Example_Dotimelina_2_object</object>
+    <object>objects\face_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>

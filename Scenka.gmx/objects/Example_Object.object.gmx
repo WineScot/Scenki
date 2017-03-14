@@ -171,7 +171,8 @@ ds_map_clear(kierunek);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Text_Box("Przykladowy tekst# druga linigjaka",0.5,x,y);
+            <string>///textbox test
+Text_Box("Przykładowy tekst druga linijgka",0.5,45,3,-1,-1);
 </string>
           </argument>
         </arguments>
