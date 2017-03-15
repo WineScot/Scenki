@@ -18,12 +18,30 @@ pos2=ds_map_create();
 
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
-ds_map_add(iid,1,Nauczyciel_object.id);
+ds_map_add(iid,3,Boy_01_object.id);
+ds_map_add(iid,4,Boy_02_object.id);
+ds_map_add(iid,5,Boy_03_object.id);
+ds_map_add(iid,6,Boy_04_object.id);
+ds_map_add(iid,7,Boy_05_object.id);
+ds_map_add(iid,8,Girl_01_object.id);
+ds_map_add(iid,9,Girl_02_object.id);
+ds_map_add(iid,10,Girl_03_object.id);
+ds_map_add(iid,11,Girl_04_object.id);
+ds_map_add(iid,12,Girl_05_object.id);
 
 globalvar menu; //do menu wybierania postaci
-menu[0]=1;
-menu[1]=2;
-menu[2]=3;
+menu[0]=8;
+menu[1]=9;
+menu[2]=10;
+menu[3]=11;
+menu[4]=12;
+menu[5]=3;
+menu[6]=4;
+menu[7]=5;
+menu[8]=6;
+menu[9]=7;
+
+
 ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
 ds_map_add(kierunek,ds_map_find_value(iid,menu[0]),0);
 
@@ -31,7 +49,7 @@ globalvar inventory,eq; //mapa do ekwipunku
 inventory=ds_map_create();
 eq=ds_map_create();
 ds_map_add(inventory,Chair,1);
-ds_map_add(eq,Nauczyciel_object.id,inventory);
+//ds_map_add(eq,Nauczyciel_object.id,inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
 czy2=0;</code>
@@ -239,9 +257,21 @@ czy2=0;</code>
     <instance objName="Interact_Object" x="224" y="416" name="inst_043D3F72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Interact_Object" x="224" y="384" name="inst_B8F5CD14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ekwipunek_obj" x="480" y="32" name="inst_26D2B063" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Nauczyciel_object" x="288" y="288" name="inst_9315A5A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Menu_Wybierania_Postaci_obj" x="480" y="96" name="inst_23CECA26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Timer_object" x="640" y="0" name="inst_5D48D344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_01_object" x="96" y="576" name="inst_DEF25407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_01_object" x="128" y="576" name="inst_28E21133" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_02_object" x="160" y="576" name="inst_D19907F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_02_object" x="192" y="576" name="inst_59708A60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_03_object" x="224" y="576" name="inst_2C7C904C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_04_object" x="256" y="576" name="inst_6DEC0072" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_03_object" x="288" y="576" name="inst_BACEB360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_04_object" x="320" y="576" name="inst_BEC3CB76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_05_object" x="352" y="576" name="inst_F42204A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_05_object" x="384" y="576" name="inst_53DC055E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Tutorial_Dotimelina_object" x="704" y="128" name="inst_2593B7C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Example_Dotimelina_2_object" x="704" y="96" name="inst_2CC90E88" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Punkty_object" x="480" y="288" name="inst_140EEEBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

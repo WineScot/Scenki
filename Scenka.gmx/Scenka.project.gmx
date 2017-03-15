@@ -197,6 +197,7 @@
     <object>objects\Timer_object</object>
     <object>objects\Punkty_object</object>
     <object>objects\Example_Dotimelina_1_object</object>
+    <object>objects\Tutorial_Dotimelina_object</object>
     <object>objects\Example_Dotimelina_2_object</object>
     <object>objects\face_obj</object>
     <object>objects\object35</object>
@@ -207,12 +208,13 @@
     <timeline>timelines\Timer_TimeLine</timeline>
     <timeline>timelines\Tutorial_TimeLine</timeline>
     <timeline>timelines\Example_Punkty_Add</timeline>
-    <timeline>timelines\Example_Punkty_Spr</timeline>
+    <timeline>timelines\Punkty_Spr</timeline>
+    <timeline>timelines\Tutorial_Punkty_Add</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Room_Just_For_Score_Test</room>
-    <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
   </rooms>

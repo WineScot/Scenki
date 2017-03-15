@@ -127,6 +127,7 @@ czy2=0;</code>
     <instance objName="Example_Dotimelina_1_object" x="576" y="224" name="inst_746FC8FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Dotimelina_2_object" x="608" y="224" name="inst_6FFED3FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Girl_02_object" x="128" y="160" name="inst_A45FEED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat_object" x="256" y="32" name="inst_8C45736D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

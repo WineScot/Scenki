@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timeline_index=Punkty_Spr;
+            <string>timeline_index=Tutorial_Punkty_Add;
 timeline_running=true;
 </string>
           </argument>
