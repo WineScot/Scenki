@@ -155,6 +155,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
+    <background>background\Murawa</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -220,6 +221,7 @@
     <timeline>timelines\Tutorial_Punkty_Add</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Boisko</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Room_Just_For_Score_Test</room>
