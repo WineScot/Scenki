@@ -169,6 +169,7 @@
       <sprite>sprites\obraz2</sprite>
       <sprite>sprites\Dywan</sprite>
     </sprites>
+    <sprite>sprites\publ_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -242,6 +243,7 @@
       <object>objects\face_obj</object>
       <object>objects\Example_Dotimelina_2_object</object>
     </objects>
+    <object>objects\publ_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
