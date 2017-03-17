@@ -142,6 +142,7 @@
       <sprite>sprites\Strzalka</sprite>
     </sprites>
     <sprite>sprites\Automat</sprite>
+    <sprite>sprites\Automat_anim</sprite>
     <sprite>sprites\Toilet</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
     <sprite>sprites\Watson</sprite>
