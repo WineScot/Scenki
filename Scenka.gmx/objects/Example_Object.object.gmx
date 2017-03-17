@@ -171,8 +171,9 @@ ds_map_clear(kierunek);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///textbox test
-Text_Box("Przykładowy tekst druga linijgka",0.5,45,3,-1,-1);
+            <string>///Spowolnienie
+if(room_speed == 30)room_speed = 15;
+else room_speed = 30;
 </string>
           </argument>
         </arguments>
