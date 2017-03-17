@@ -153,8 +153,16 @@
       <sprite>sprites\Big_Desk</sprite>
     </sprites>
     <sprite>sprites\Automat</sprite>
+    <sprite>sprites\Automat_anim</sprite>
     <sprite>sprites\Toilet</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
+    <sprite>sprites\Watson</sprite>
+    <sprite>sprites\Zwlok</sprite>
+    <sprite>sprites\Kominek</sprite>
+    <sprite>sprites\Piekarnik</sprite>
+    <sprite>sprites\Shelf</sprite>
+    <sprite>sprites\Jar</sprite>
+    <sprite>sprites\Lampa</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
