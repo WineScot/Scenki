@@ -137,6 +137,7 @@
         <sprite>sprites\Detektyw_01Lewo</sprite>
         <sprite>sprites\Detektyw_01Tyl</sprite>
       </sprites>
+      <sprite>sprites\Watson</sprite>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
@@ -154,15 +155,20 @@
     </sprites>
     <sprite>sprites\Automat</sprite>
     <sprite>sprites\Automat_anim</sprite>
-    <sprite>sprites\Toilet</sprite>
-    <sprite>sprites\Inventory_Frame</sprite>
-    <sprite>sprites\Watson</sprite>
-    <sprite>sprites\Zwlok</sprite>
-    <sprite>sprites\Kominek</sprite>
-    <sprite>sprites\Piekarnik</sprite>
-    <sprite>sprites\Shelf</sprite>
-    <sprite>sprites\Jar</sprite>
-    <sprite>sprites\Lampa</sprite>
+    <sprites name="Detektywistyczna_Scenka">
+      <sprite>sprites\Lampa</sprite>
+      <sprite>sprites\Blat</sprite>
+      <sprite>sprites\Jar</sprite>
+      <sprite>sprites\Shelf</sprite>
+      <sprite>sprites\Piekarnik</sprite>
+      <sprite>sprites\Zwlok</sprite>
+      <sprite>sprites\Kominek</sprite>
+      <sprite>sprites\Inventory_Frame</sprite>
+      <sprite>sprites\Toilet</sprite>
+      <sprite>sprites\Obraz1</sprite>
+      <sprite>sprites\obraz2</sprite>
+      <sprite>sprites\Dywan</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -183,45 +189,59 @@
     <font>fonts\Long_Int</font>
   </fonts>
   <objects name="objects">
-    <object>objects\Nauczyciel_object</object>
-    <object>objects\suicide_object</object>
-    <object>objects\Boy_01_object</object>
-    <object>objects\Boy_02_object</object>
-    <object>objects\Boy_03_object</object>
-    <object>objects\Boy_04_object</object>
-    <object>objects\Boy_05_object</object>
-    <object>objects\Girl_01_object</object>
-    <object>objects\Girl_02_object</object>
-    <object>objects\Girl_03_object</object>
-    <object>objects\Girl_04_object</object>
-    <object>objects\Girl_05_object</object>
-    <object>objects\Example_Object</object>
+    <objects name="Postacie">
+      <object>objects\Nauczyciel_object</object>
+      <object>objects\suicide_object</object>
+      <object>objects\Boy_01_object</object>
+      <object>objects\Boy_02_object</object>
+      <object>objects\Boy_03_object</object>
+      <object>objects\Boy_04_object</object>
+      <object>objects\Boy_05_object</object>
+      <object>objects\Girl_01_object</object>
+      <object>objects\Girl_02_object</object>
+      <object>objects\Girl_03_object</object>
+      <object>objects\Girl_04_object</object>
+      <object>objects\Girl_05_object</object>
+      <object>objects\Detektyw_01_object</object>
+      <object>objects\Example_Object</object>
+    </objects>
+    <objects name="Furniture">
+      <object>objects\Shelf_object</object>
+      <object>objects\Lampa_object</object>
+      <object>objects\Table_Object</object>
+      <object>objects\Desk_object</object>
+      <object>objects\Wall_Przod_object</object>
+      <object>objects\Chair_object</object>
+      <object>objects\Drzwi_object</object>
+      <object>objects\obj_grid</object>
+      <object>objects\obj_wall</object>
+      <object>objects\Kominek_object</object>
+      <object>objects\Automat_object</object>
+      <object>objects\Toilet_object</object>
+      <object>objects\Piekarnik_object</object>
+      <object>objects\Zwloki_object</object>
+      <object>objects\Blat_object</object>
+      <object>objects\Big_Desk_object</object>
+      <object>objects\Obraz1_object</object>
+      <object>objects\Obraz2_object</object>
+      <object>objects\Dywan_object</object>
+    </objects>
     <object>objects\Example_Wall_object</object>
-    <object>objects\Table_Object</object>
-    <object>objects\Desk_object</object>
-    <object>objects\Wall_Przod_object</object>
-    <object>objects\Chair_object</object>
-    <object>objects\Drzwi_object</object>
-    <object>objects\obj_grid</object>
-    <object>objects\obj_wall</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
-    <object>objects\Automat_object</object>
-    <object>objects\Toilet_object</object>
-    <object>objects\text_obj</object>
-    <object>objects\Menu_Wybierania_Postaci_obj</object>
-    <object>objects\Ekwipunek_obj</object>
-    <object>objects\Dotimelina_object</object>
-    <object>objects\znacznik_obj</object>
-    <object>objects\Timer_object</object>
-    <object>objects\Punkty_object</object>
-    <object>objects\Example_Dotimelina_1_object</object>
-    <object>objects\Tutorial_Dotimelina_object</object>
-    <object>objects\Example_Dotimelina_2_object</object>
-    <object>objects\face_obj</object>
-    <object>objects\object35</object>
-    <object>objects\Big_Desk_object</object>
-    <object>objects\Detektyw_01_object</object>
+    <objects name="Temps">
+      <object>objects\Menu_Wybierania_Postaci_obj</object>
+      <object>objects\text_obj</object>
+      <object>objects\Ekwipunek_obj</object>
+      <object>objects\Dotimelina_object</object>
+      <object>objects\znacznik_obj</object>
+      <object>objects\Timer_object</object>
+      <object>objects\Punkty_object</object>
+      <object>objects\Example_Dotimelina_1_object</object>
+      <object>objects\Tutorial_Dotimelina_object</object>
+      <object>objects\face_obj</object>
+      <object>objects\Example_Dotimelina_2_object</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
