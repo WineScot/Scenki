@@ -127,6 +127,16 @@
         <sprite>sprites\Girl_05Lewo</sprite>
         <sprite>sprites\Girl_05Tyl</sprite>
       </sprites>
+      <sprites name="Detektyw_01">
+        <sprite>sprites\Detektyw_01_Przod</sprite>
+        <sprite>sprites\Detektyw_01_Prawo</sprite>
+        <sprite>sprites\Detektyw_01_Lewo</sprite>
+        <sprite>sprites\Detektyw_01_Tyl</sprite>
+        <sprite>sprites\Detektyw_01Przod</sprite>
+        <sprite>sprites\Detektyw_01Prawo</sprite>
+        <sprite>sprites\Detektyw_01Lewo</sprite>
+        <sprite>sprites\Detektyw_01Tyl</sprite>
+      </sprites>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
@@ -140,6 +150,7 @@
       <sprite>sprites\Chair</sprite>
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
+      <sprite>sprites\Big_Desk</sprite>
     </sprites>
     <sprite>sprites\Automat</sprite>
     <sprite>sprites\Toilet</sprite>
@@ -201,6 +212,8 @@
     <object>objects\Example_Dotimelina_2_object</object>
     <object>objects\face_obj</object>
     <object>objects\object35</object>
+    <object>objects\Big_Desk_object</object>
+    <object>objects\Detektyw_01_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -212,6 +225,7 @@
     <timeline>timelines\Tutorial_Punkty_Add</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Scenka_Detektywistyczna</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Room_Just_For_Score_Test</room>
