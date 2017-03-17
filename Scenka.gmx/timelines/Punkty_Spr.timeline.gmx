@@ -31,8 +31,9 @@ for(m=0;m&lt;array_length_1d(pkt_x);m++)
         if(player.y&lt;=pkt_y[m]+zakres_bledu &amp;&amp; player.y&gt;=pkt_y[m]-zakres_bledu)
         if(player.sprite_index==zwrot[m] || zwrot[m]==-1)
         {
-                    active[m]--;
                     punkty++;
+                    active[m]--;
+                    if(active[m]==0) punkty++;
         }
         
     }
