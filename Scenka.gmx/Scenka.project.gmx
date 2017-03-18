@@ -137,7 +137,16 @@
         <sprite>sprites\Detektyw_01Lewo</sprite>
         <sprite>sprites\Detektyw_01Tyl</sprite>
       </sprites>
-      <sprite>sprites\Watson</sprite>
+      <sprites name="Watson">
+        <sprite>sprites\Watson_Przod</sprite>
+        <sprite>sprites\Watson_Prawo</sprite>
+        <sprite>sprites\Watson_Lewo</sprite>
+        <sprite>sprites\Watson_Tyl</sprite>
+        <sprite>sprites\WatsonPrzod</sprite>
+        <sprite>sprites\WatsonPrawo</sprite>
+        <sprite>sprites\WatsonLewo</sprite>
+        <sprite>sprites\WatsonTyl</sprite>
+      </sprites>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
@@ -168,7 +177,11 @@
       <sprite>sprites\Obraz1</sprite>
       <sprite>sprites\obraz2</sprite>
       <sprite>sprites\Dywan</sprite>
+      <sprite>sprites\Butelka_Po_Piwie</sprite>
+      <sprite>sprites\Chest</sprite>
+      <sprite>sprites\Torba</sprite>
     </sprites>
+    <sprite>sprites\nic_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -203,8 +216,11 @@
       <object>objects\Girl_04_object</object>
       <object>objects\Girl_05_object</object>
       <object>objects\Detektyw_01_object</object>
+      <object>objects\Watson_object</object>
       <object>objects\Example_Object</object>
     </objects>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_grid</object>
     <objects name="Furniture">
       <object>objects\Shelf_object</object>
       <object>objects\Lampa_object</object>
@@ -213,8 +229,6 @@
       <object>objects\Wall_Przod_object</object>
       <object>objects\Chair_object</object>
       <object>objects\Drzwi_object</object>
-      <object>objects\obj_grid</object>
-      <object>objects\obj_wall</object>
       <object>objects\Kominek_object</object>
       <object>objects\Automat_object</object>
       <object>objects\Toilet_object</object>
@@ -225,6 +239,9 @@
       <object>objects\Obraz1_object</object>
       <object>objects\Obraz2_object</object>
       <object>objects\Dywan_object</object>
+      <object>objects\Butalka_Po_Piwie_object</object>
+      <object>objects\Chest_object</object>
+      <object>objects\Torba_object</object>
     </objects>
     <object>objects\Example_Wall_object</object>
     <object>objects\Interact_Object</object>
@@ -241,6 +258,7 @@
       <object>objects\Tutorial_Dotimelina_object</object>
       <object>objects\face_obj</object>
       <object>objects\Example_Dotimelina_2_object</object>
+      <object>objects\Detektywdotimelina_object</object>
     </objects>
   </objects>
   <timelines name="timelines">
@@ -251,11 +269,12 @@
     <timeline>timelines\Example_Punkty_Add</timeline>
     <timeline>timelines\Punkty_Spr</timeline>
     <timeline>timelines\Tutorial_Punkty_Add</timeline>
+    <timeline>timelines\Detektyw_Timeline</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Scenka_Detektywistyczna</room>
-    <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\Scenka_Detektywistyczna</room>
     <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>

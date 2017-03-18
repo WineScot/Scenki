@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>depth = 1000;
-image_speed=0;
 </string>
           </argument>
         </arguments>
@@ -54,7 +53,7 @@ var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk)
 {
-        id.sprite_index=Toilet;
+        id.sprite_index=Automat_anim;
         image_speed=0;
 }
 </string>

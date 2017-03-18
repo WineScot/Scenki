@@ -19,13 +19,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>globalvar pkt_x, pkt_y, active, moment, zwrot, instancja;
-moment=0;
-pkt_x[0]=-1;
-pkt_y[0]=-1; 
-active[0]=-1; 
-instancja[0]=-1; 
-zwrot[0]=-1; 
+            <string>globalvar px, py;
+px=352;
+py=256;
+ds_map_add(czy,Watson_object.id,1);
 </string>
           </argument>
         </arguments>
@@ -33,7 +30,7 @@ zwrot[0]=-1;
     </event>
   </entry>
   <entry>
-    <step>210</step>
+    <step>1</step>
     <event>
       <action>
         <libid>1</libid>
@@ -51,18 +48,65 @@ zwrot[0]=-1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=64; 
-active[moment]=158; 
-instancja[moment]=Girl_01_object.id; 
-zwrot[moment]=Girl_01Tyl; 
-moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=32; 
-active[moment]=158; 
-instancja[moment]=inst_F8742534.sprite_index=Automat_anim;; 
-zwrot[moment]=Automat_anim; 
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>150</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=556;
+py=208;
+ds_map_add(czy,Watson_object.id,1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>151</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -88,12 +132,7 @@ zwrot[moment]=Automat_anim;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=432;
-pkt_y[moment]=384; 
-active[moment]=149; 
-instancja[moment]=Boy_01_object.id; 
-zwrot[moment]=Boy_01Tyl; 
+            <string>Watson_object.id.sprite_index=WatsonLewo;
 </string>
           </argument>
         </arguments>
@@ -101,7 +140,7 @@ zwrot[moment]=Boy_01Tyl;
     </event>
   </entry>
   <entry>
-    <step>300</step>
+    <step>320</step>
     <event>
       <action>
         <libid>1</libid>
@@ -119,13 +158,9 @@ zwrot[moment]=Boy_01Tyl;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=416;
-pkt_y[moment]=352; 
-active[moment]=149; 
-instancja[moment]=inst_27DAD5C6; 
-zwrot[moment]=Automat_anim; 
-
+            <string>px=560;
+py=130;
+ds_map_add(czy,Watson_object.id,1);
 </string>
           </argument>
         </arguments>
@@ -133,7 +168,7 @@ zwrot[moment]=Automat_anim;
     </event>
   </entry>
   <entry>
-    <step>335</step>
+    <step>321</step>
     <event>
       <action>
         <libid>1</libid>
@@ -151,20 +186,9 @@ zwrot[moment]=Automat_anim;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=635;
-pkt_y[moment]=430; 
-active[moment]=133; 
-instancja[moment]=Boy_02_object.id; 
-zwrot[moment]=Boy_02Prawo; 
-
-moment++;
-pkt_x[moment]=640;
-pkt_y[moment]=416; 
-active[moment]=133; 
-instancja[moment]=inst_8B2BDDDF; 
-zwrot[moment]=Automat_anim; 
-
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -172,7 +196,7 @@ zwrot[moment]=Automat_anim;
     </event>
   </entry>
   <entry>
-    <step>430</step>
+    <step>450</step>
     <event>
       <action>
         <libid>1</libid>
@@ -190,20 +214,9 @@ zwrot[moment]=Automat_anim;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=112;
-pkt_y[moment]=176; 
-active[moment]=114; 
-instancja[moment]=Boy_03_object.id; 
-zwrot[moment]=Boy_03Przod; 
-
-moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=192; 
-active[moment]=114; 
-instancja[moment]=inst_93734A81;; 
-zwrot[moment]=Automat_anim; 
-
+            <string>px=592;
+py=130;
+ds_map_add(czy,Watson_object.id,1);
 </string>
           </argument>
         </arguments>
@@ -229,12 +242,7 @@ zwrot[moment]=Automat_anim;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=386; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Lewo; 
+            <string>ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -242,7 +250,7 @@ zwrot[moment]=Boy_05Lewo;
     </event>
   </entry>
   <entry>
-    <step>600</step>
+    <step>560</step>
     <event>
       <action>
         <libid>1</libid>
@@ -260,7 +268,9 @@ zwrot[moment]=Boy_05Lewo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[9]=0;
+            <string>px=592;
+py=340;
+ds_map_add(czy,Watson_object.id,1);
 </string>
           </argument>
         </arguments>
@@ -268,7 +278,7 @@ zwrot[moment]=Boy_05Lewo;
     </event>
   </entry>
   <entry>
-    <step>700</step>
+    <step>561</step>
     <event>
       <action>
         <libid>1</libid>
@@ -286,12 +296,9 @@ zwrot[moment]=Boy_05Lewo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=608;
-pkt_y[moment]=288; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Prawo; 
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -299,7 +306,7 @@ zwrot[moment]=Boy_05Prawo;
     </event>
   </entry>
   <entry>
-    <step>800</step>
+    <step>630</step>
     <event>
       <action>
         <libid>1</libid>
@@ -317,7 +324,7 @@ zwrot[moment]=Boy_05Prawo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[10]=0;
+            <string>Watson_object.id.sprite_index=WatsonPrawo;
 </string>
           </argument>
         </arguments>
@@ -325,7 +332,7 @@ zwrot[moment]=Boy_05Prawo;
     </event>
   </entry>
   <entry>
-    <step>900</step>
+    <step>660</step>
     <event>
       <action>
         <libid>1</libid>
@@ -343,12 +350,7 @@ zwrot[moment]=Boy_05Prawo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=386; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Lewo; 
+            <string>Watson_object.id.sprite_index=WatsonLewo;
 </string>
           </argument>
         </arguments>
@@ -356,7 +358,7 @@ zwrot[moment]=Boy_05Lewo;
     </event>
   </entry>
   <entry>
-    <step>1000</step>
+    <step>690</step>
     <event>
       <action>
         <libid>1</libid>
@@ -374,18 +376,9 @@ zwrot[moment]=Boy_05Lewo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[0]=0;
-active[1]=0;
-active[2]=0;
-active[3]=0;
-active[4]=0;
-active[5]=0;
-active[6]=0;
-active[7]=0;
-active[8]=0;
-active[11]=0;
-globalvar ll;
-ll=0;
+            <string>px=460;
+py=320;
+ds_map_add(czy,Watson_object.id,1);
 </string>
           </argument>
         </arguments>
@@ -393,7 +386,7 @@ ll=0;
     </event>
   </entry>
   <entry>
-    <step>1001</step>
+    <step>691</step>
     <event>
       <action>
         <libid>1</libid>
@@ -411,20 +404,9 @@ ll=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ll++;
-if(ll&lt;30) if(keyboard_check_released(vk_space)) 
-{
-    czy2=1;
-    punkty++;
-    px=0;
-    py=576;
-    ds_map_add(czy,Boy_01_object.id,1);
-    ds_map_add(czy,Boy_02_object.id,1);
-    ds_map_add(czy,Boy_03_object.id,1);
-    ds_map_add(czy,Boy_05_object.id,1);
-    ds_map_add(czy,Girl_01_object.id,1);
-}
-else timeline_position=1000;
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -432,7 +414,7 @@ else timeline_position=1000;
     </event>
   </entry>
   <entry>
-    <step>1002</step>
+    <step>760</step>
     <event>
       <action>
         <libid>1</libid>
@@ -450,11 +432,225 @@ else timeline_position=1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(czy2)
-{
-    px=50;
-    py=50;
-}
+            <string>Watson_object.id.sprite_index=WatsonLewo;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>790</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=176;
+py=400;
+ds_map_add(czy,Watson_object.id,1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>791</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>870</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Chair_object.id[1].sprite_index=nic_spr;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>880</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=460;
+py=320;
+ds_map_add(czy,Watson_object.id,1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>881</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>970</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>instance_create(448,288,Chair_object);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>990</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Watson_object.id.x=464;
+Watson_object.id.y=288;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1050</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Watson_object.id.x=464;
+Watson_object.id.y=320;
 </string>
           </argument>
         </arguments>

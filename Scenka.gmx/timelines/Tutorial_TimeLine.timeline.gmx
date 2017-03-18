@@ -231,6 +231,32 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
+    <step>210</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>inst_F8742534.sprite_index=Automat_anim;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>270</step>
     <event>
       <action>
@@ -288,6 +314,32 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
+    <step>300</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>inst_27DAD5C6.sprite_index=Automat_anim;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>335</step>
     <event>
       <action>
@@ -307,6 +359,7 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>Boy_02_object.id.sprite_index=29;
+inst_8B2BDDDF.sprite_index=Automat_anim;
 </string>
           </argument>
         </arguments>
@@ -333,6 +386,7 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>Boy_03_object.id.sprite_index=44;
+inst_93734A81.sprite_index=Automat_anim;
 </string>
           </argument>
         </arguments>
