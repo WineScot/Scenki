@@ -182,9 +182,11 @@
       <sprite>sprites\Torba</sprite>
     </sprites>
     <sprite>sprites\nic_spr</sprite>
+    <sprite>sprites\publ_spr</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
+    <background>background\Murawa</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -260,6 +262,7 @@
       <object>objects\Example_Dotimelina_2_object</object>
       <object>objects\Detektywdotimelina_object</object>
     </objects>
+    <object>objects\publ_obj</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -272,9 +275,10 @@
     <timeline>timelines\Detektyw_Timeline</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Scenka_Detektywistyczna</room>
+    <room>rooms\Boisko</room>
+    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Sala_Fizyczna</room>
