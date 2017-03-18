@@ -10,25 +10,33 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>globalvar iid;
-globalvar obiekt;
-globalvar akt_kierunek;
-globalvar up, down, right, left, nic;
-globalvar czy1;
-czy1=1;
-up=0;
-down=0;
-right=0;
-left=0;
-nic=0;
-akt_kierunek=2;
-iid = 0;
-globalvar t;
-t[0]=2;
-t[1]=2;
-t[2]=2;
-t[3]=3;
-obiekt = Nauczyciel_object.id;</code>
+  <code>globalvar czy, kierunek, pos1, pos2; //Mapy do poruszania sie
+czy=ds_map_create();
+kierunek=ds_map_create();
+pos1=ds_map_create();
+pos2=ds_map_create();
+
+globalvar iid;  //mapa do zamiany id na objekt
+iid=ds_map_create();
+ds_map_add(iid,1,Nauczyciel_object.id);
+ds_map_add(iid,2,suicide_object.id);
+ds_map_add(iid,4,Boy_02_object.id);
+
+globalvar menu; //do menu wybierania postaci
+menu[0]=1;
+menu[1]=2;
+menu[2]=4;
+//ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
+var m;
+for(m=0;m&lt;array_length_1d(menu);m++)
+ds_map_add(kierunek,ds_map_find_value(iid,menu[m]),0);
+
+globalvar inventory,eq; //mapa do ekwipunku
+inventory=ds_map_create();
+eq=ds_map_create();
+
+globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
+czy2=1;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -69,8 +77,7 @@ obiekt = Nauczyciel_object.id;</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Nauczyciel_object" x="128" y="160" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="fake_temp_object" x="992" y="736" name="inst_4ECB11CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Nauczyciel_object" x="560" y="32" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="576" y="0" name="inst_98BABF39" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="576" y="32" name="inst_5B7DD34B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="576" y="64" name="inst_23CDA7D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -143,7 +150,6 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Desk_object" x="64" y="192" name="inst_CA783B61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="64" y="256" name="inst_8408A499" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="64" y="320" name="inst_8B9B1765" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Girl_01_object" x="192" y="160" name="inst_7504DD78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="224" y="0" name="inst_09283E94" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="256" y="0" name="inst_ED60EE7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="288" y="0" name="inst_918C387B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -153,7 +159,6 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Wall_Przod_object" x="416" y="0" name="inst_F2F1658E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="32" y="0" name="inst_166601F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Table_Object" x="160" y="96" name="inst_12E70D7D" locked="0" code="" scaleX="4.21875" scaleY="3.5" colour="4294967295" rotation="0"/>
-    <instance objName="suicide_object" x="160" y="160" name="inst_0DABF3A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="288" y="224" name="inst_04B29ABB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="224" name="inst_1CABFED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="288" name="inst_B2817E56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -174,6 +179,21 @@ obiekt = Nauczyciel_object.id;</code>
     <instance objName="Chair_object" x="320" y="352" name="inst_54A9EE77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="320" y="288" name="inst_67AFD6D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="320" y="224" name="inst_37568795" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_grid" x="448" y="0" name="inst_1C238CBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="suicide_object" x="530" y="224" name="inst_2600815E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_01_object" x="512" y="384" name="inst_046877AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_02_object" x="544" y="384" name="inst_F1F6FCB4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Girl_03_object" x="512" y="288" name="inst_869947F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_02_object" x="496" y="256" name="inst_8E585AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_03_object" x="512" y="160" name="inst_18FF9C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Fizyka_Dotimelina" x="448" y="32" name="inst_25544700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="448" y="64" name="inst_B0283C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall_Przod_object" x="192" y="0" name="inst_C325C82C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall_Przod_object" x="64" y="0" name="inst_206848E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall_Przod_object" x="96" y="0" name="inst_A1B836EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall_Przod_object" x="128" y="0" name="inst_9E3AA946" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wall_Przod_object" x="160" y="0" name="inst_4DF89086" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Obraz_Fizyka_object" x="320" y="0" name="inst_75A3F8AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
