@@ -287,8 +287,8 @@ zwrot[moment]=Boy_05Lewo;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=608;
-pkt_y[moment]=288; 
+pkt_x[moment]=645;
+pkt_y[moment]=304; 
 active[moment]=20; 
 instancja[moment]=Boy_05_object.id; 
 zwrot[moment]=Boy_05Prawo; 
