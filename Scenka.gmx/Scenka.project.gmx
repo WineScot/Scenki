@@ -174,7 +174,6 @@
       <sprite>sprites\Piekarnik</sprite>
       <sprite>sprites\Zwlok</sprite>
       <sprite>sprites\Kominek</sprite>
-      <sprite>sprites\Inventory_Frame</sprite>
       <sprite>sprites\Toilet</sprite>
       <sprite>sprites\Obraz1</sprite>
       <sprite>sprites\obraz2</sprite>
@@ -185,6 +184,10 @@
     </sprites>
     <sprite>sprites\nic_spr</sprite>
     <sprite>sprites\publ_spr</sprite>
+    <sprite>sprites\ToiletPaper</sprite>
+    <sprite>sprites\ToiletPaperv2</sprite>
+    <sprite>sprites\Papier</sprite>
+    <sprite>sprites\Inventory_Frame</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -267,6 +270,7 @@
     </objects>
     <object>objects\publ_obj</object>
     <object>objects\Obraz_Fizyka_object</object>
+    <object>objects\ToiletPaper_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -281,10 +285,11 @@
   </timelines>
   <rooms name="rooms">
     <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Tutorial_Nies</room>
+    <room>rooms\TheTrueTutorial</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Scenka_Detektywistyczna</room>
     <room>rooms\Boisko</room>
-    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Example_Room</room>
   </rooms>
