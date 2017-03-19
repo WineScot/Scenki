@@ -137,11 +137,21 @@
         <sprite>sprites\Detektyw_01Lewo</sprite>
         <sprite>sprites\Detektyw_01Tyl</sprite>
       </sprites>
-      <sprite>sprites\Watson</sprite>
+      <sprites name="Watson">
+        <sprite>sprites\Watson_Przod</sprite>
+        <sprite>sprites\Watson_Prawo</sprite>
+        <sprite>sprites\Watson_Lewo</sprite>
+        <sprite>sprites\Watson_Tyl</sprite>
+        <sprite>sprites\WatsonPrzod</sprite>
+        <sprite>sprites\WatsonPrawo</sprite>
+        <sprite>sprites\WatsonLewo</sprite>
+        <sprite>sprites\WatsonTyl</sprite>
+      </sprites>
     </sprites>
     <sprites name="Sala">
       <sprites name="Tablica">
         <sprite>sprites\Tablice</sprite>
+        <sprite>sprites\Table_anim</sprite>
       </sprites>
       <sprites name="Sciany">
         <sprite>sprites\Example_Wall</sprite>
@@ -152,6 +162,7 @@
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
       <sprite>sprites\Big_Desk</sprite>
+      <sprite>sprites\Obraz_Fizyka_01</sprite>
     </sprites>
     <sprite>sprites\Automat</sprite>
     <sprite>sprites\Automat_anim</sprite>
@@ -163,23 +174,124 @@
       <sprite>sprites\Piekarnik</sprite>
       <sprite>sprites\Zwlok</sprite>
       <sprite>sprites\Kominek</sprite>
-      <sprite>sprites\Inventory_Frame</sprite>
       <sprite>sprites\Toilet</sprite>
       <sprite>sprites\Obraz1</sprite>
       <sprite>sprites\obraz2</sprite>
       <sprite>sprites\Dywan</sprite>
+      <sprite>sprites\Butelka_Po_Piwie</sprite>
+      <sprite>sprites\Chest</sprite>
+      <sprite>sprites\Torba</sprite>
     </sprites>
+    <sprite>sprites\nic_spr</sprite>
     <sprite>sprites\publ_spr</sprite>
+    <sprite>sprites\ToiletPaper</sprite>
+    <sprite>sprites\ToiletPaperv2</sprite>
+    <sprite>sprites\Papier</sprite>
+    <sprite>sprites\Inventory_Frame</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
   </backgrounds>
   <paths name="paths"/>
-  <scripts name="scripts"/>
-  <fonts name="fonts"/>
-  <objects name="objects"/>
-  <timelines name="timelines"/>
-  <rooms name="rooms"/>
+  <scripts name="scripts">
+    <script>scripts\Anim_ruch.gml</script>
+    <script>scripts\Zmien_Kierunek.gml</script>
+    <script>scripts\Text_Box.gml</script>
+    <script>scripts\scr_Menu_Postaci.gml</script>
+    <script>scripts\Ruch_Down.gml</script>
+    <script>scripts\Ruch_Up.gml</script>
+    <script>scripts\Ruch_Right.gml</script>
+    <script>scripts\Ruch_Left.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+    <font>fonts\Long_Int</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="Postacie">
+      <object>objects\Nauczyciel_object</object>
+      <object>objects\suicide_object</object>
+      <object>objects\Boy_01_object</object>
+      <object>objects\Boy_02_object</object>
+      <object>objects\Boy_03_object</object>
+      <object>objects\Boy_04_object</object>
+      <object>objects\Boy_05_object</object>
+      <object>objects\Girl_01_object</object>
+      <object>objects\Girl_02_object</object>
+      <object>objects\Girl_03_object</object>
+      <object>objects\Girl_04_object</object>
+      <object>objects\Girl_05_object</object>
+      <object>objects\Detektyw_01_object</object>
+      <object>objects\Watson_object</object>
+      <object>objects\Example_Object</object>
+    </objects>
+    <object>objects\obj_wall</object>
+    <object>objects\obj_grid</object>
+    <objects name="Furniture">
+      <object>objects\Shelf_object</object>
+      <object>objects\Lampa_object</object>
+      <object>objects\Table_Object</object>
+      <object>objects\Desk_object</object>
+      <object>objects\Wall_Przod_object</object>
+      <object>objects\Chair_object</object>
+      <object>objects\Drzwi_object</object>
+      <object>objects\Kominek_object</object>
+      <object>objects\Automat_object</object>
+      <object>objects\Toilet_object</object>
+      <object>objects\Piekarnik_object</object>
+      <object>objects\Zwloki_object</object>
+      <object>objects\Blat_object</object>
+      <object>objects\Big_Desk_object</object>
+      <object>objects\Obraz1_object</object>
+      <object>objects\Obraz2_object</object>
+      <object>objects\Dywan_object</object>
+      <object>objects\Butalka_Po_Piwie_object</object>
+      <object>objects\Chest_object</object>
+      <object>objects\Torba_object</object>
+    </objects>
+    <object>objects\Example_Wall_object</object>
+    <object>objects\Interact_Object</object>
+    <object>objects\fake_temp_object</object>
+    <objects name="Temps">
+      <object>objects\Menu_Wybierania_Postaci_obj</object>
+      <object>objects\text_obj</object>
+      <object>objects\Ekwipunek_obj</object>
+      <object>objects\Dotimelina_object</object>
+      <object>objects\znacznik_obj</object>
+      <object>objects\Timer_object</object>
+      <object>objects\Punkty_object</object>
+      <object>objects\Example_Dotimelina_1_object</object>
+      <object>objects\Tutorial_Dotimelina_object</object>
+      <object>objects\face_obj</object>
+      <object>objects\Example_Dotimelina_2_object</object>
+      <object>objects\Detektywdotimelina_object</object>
+      <object>objects\Fizyka_Dotimelina</object>
+    </objects>
+    <object>objects\publ_obj</object>
+    <object>objects\Obraz_Fizyka_object</object>
+    <object>objects\ToiletPaper_object</object>
+  </objects>
+  <timelines name="timelines">
+    <timeline>timelines\Table_Annimation</timeline>
+    <timeline>timelines\Poruszanie</timeline>
+    <timeline>timelines\Timer_TimeLine</timeline>
+    <timeline>timelines\Tutorial_TimeLine</timeline>
+    <timeline>timelines\Example_Punkty_Add</timeline>
+    <timeline>timelines\Punkty_Spr</timeline>
+    <timeline>timelines\Tutorial_Punkty_Add</timeline>
+    <timeline>timelines\Detektyw_Timeline</timeline>
+    <timeline>timelines\Fizyka_Timeline</timeline>
+  </timelines>
+  <rooms name="rooms">
+    <room>rooms\Tutorial</room>
+    <room>rooms\Tutorial_Nies</room>
+    <room>rooms\TheTrueTutorial</room>
+    <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Scenka_Detektywistyczna</room>
+    <room>rooms\Boisko</room>
+    <room>rooms\Room_Just_For_Score_Test</room>
+    <room>rooms\Example_Room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

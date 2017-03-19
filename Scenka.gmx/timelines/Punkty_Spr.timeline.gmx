@@ -35,7 +35,6 @@ for(m=0;m&lt;array_length_1d(pkt_x);m++)
                     active[m]--;
                     if(active[m]==0) punkty++;
         }
-        
     }
 }
 </string>
