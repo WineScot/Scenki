@@ -61,8 +61,8 @@ moment++;
 pkt_x[moment]=96;
 pkt_y[moment]=32; 
 active[moment]=158; 
-instancja[moment]=inst_F8742534.sprite_index=Automat_anim;; 
-zwrot[moment]=Automat_anim; 
+instancja[moment]=inst_ACEE5BDE; 
+zwrot[moment]=Automat1p_anim;
 </string>
           </argument>
         </arguments>
@@ -123,8 +123,8 @@ zwrot[moment]=Boy_01Tyl;
 pkt_x[moment]=416;
 pkt_y[moment]=352; 
 active[moment]=149; 
-instancja[moment]=inst_27DAD5C6; 
-zwrot[moment]=Automat_anim; 
+instancja[moment]=inst_C686C329; 
+zwrot[moment]=Automat1p_anim; 
 
 </string>
           </argument>
@@ -162,8 +162,8 @@ moment++;
 pkt_x[moment]=640;
 pkt_y[moment]=416; 
 active[moment]=133; 
-instancja[moment]=inst_8B2BDDDF; 
-zwrot[moment]=Automat_anim; 
+instancja[moment]=inst_A71C457A; 
+zwrot[moment]=Automat1l_anim; 
 
 </string>
           </argument>
@@ -201,8 +201,8 @@ moment++;
 pkt_x[moment]=96;
 pkt_y[moment]=192; 
 active[moment]=114; 
-instancja[moment]=inst_93734A81;; 
-zwrot[moment]=Automat_anim; 
+instancja[moment]=inst_AB3F54DA; 
+zwrot[moment]=Automat1t_anim; 
 
 </string>
           </argument>
@@ -287,8 +287,8 @@ zwrot[moment]=Boy_05Lewo;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=645;
-pkt_y[moment]=304; 
+pkt_x[moment]=608;
+pkt_y[moment]=288; 
 active[moment]=20; 
 instancja[moment]=Boy_05_object.id; 
 zwrot[moment]=Boy_05Prawo; 

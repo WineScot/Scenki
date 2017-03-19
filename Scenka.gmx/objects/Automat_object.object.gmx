@@ -55,6 +55,7 @@ if (przycisk)
 {
         u=1; 
         id.sprite_index=Automat_anim;
+        image_speed=0;
 }
 </string>
           </argument>
