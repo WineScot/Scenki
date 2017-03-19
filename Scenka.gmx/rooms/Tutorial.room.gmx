@@ -61,7 +61,7 @@ czy2=1;</code>
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="-1" foreground="0" name="Podloga_Automaty" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -204,10 +204,10 @@ czy2=1;</code>
     <instance objName="Interact_Object" x="32" y="288" name="inst_A9865241" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="352" y="192" name="inst_F5A6B0F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="416" y="192" name="inst_875A7C47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="416" y="128" name="inst_992F21D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="352" y="128" name="inst_CBF6A4A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="544" y="128" name="inst_79E45867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="608" y="128" name="inst_6B56BC96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="416" y="153" name="inst_992F21D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="352" y="154" name="inst_CBF6A4A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="544" y="154" name="inst_79E45867" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="608" y="154" name="inst_6B56BC96" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="608" y="192" name="inst_D437ABE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="544" y="192" name="inst_9D46EF44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="352" y="160" name="inst_45053BBF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -216,26 +216,12 @@ czy2=1;</code>
     <instance objName="Desk_object" x="352" y="64" name="inst_0264588C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="416" y="96" name="inst_5AF1E55F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="352" y="96" name="inst_007D85F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="416" y="32" name="inst_570632AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="352" y="32" name="inst_AD95AD70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="416" y="59" name="inst_570632AC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="352" y="59" name="inst_AD95AD70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="608" y="96" name="inst_7CDFBF7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="544" y="96" name="inst_254E936A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="608" y="32" name="inst_DD25DDDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="544" y="32" name="inst_AF1F2C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="416" y="448" name="inst_FF380B80" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="576" y="448" name="inst_FD394229" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="128" y="192" name="inst_51CBBECB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="96" y="192" name="inst_93734A81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="352" y="416" name="inst_AE8A60F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="352" y="384" name="inst_CF683987" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="416" y="352" name="inst_27DAD5C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="576" y="352" name="inst_CD02DD26" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="640" y="416" name="inst_8B2BDDDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="640" y="384" name="inst_5B3C5C01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="64" y="128" name="inst_ED87859D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="64" y="96" name="inst_473513C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="96" y="32" name="inst_F8742534" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Automat_object" x="128" y="32" name="inst_6F12C4F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="608" y="57" name="inst_DD25DDDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Chair_object" x="544" y="58" name="inst_AF1F2C6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Toilet_object" x="64" y="448" name="inst_870534CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Toilet_object" x="64" y="352" name="inst_18D8C3DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="448" y="224" name="inst_418C8DDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -251,7 +237,21 @@ czy2=1;</code>
     <instance objName="Boy_03_object" x="288" y="576" name="inst_6935FEF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Boy_05_object" x="384" y="576" name="inst_1B4A3EDA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Timer_object" x="640" y="0" name="inst_9FEB3F9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ToiletPaper_object" x="640" y="288" name="inst_6C473E5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Toilet_object" x="640" y="288" name="inst_681B9FE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1l_object" x="64" y="96" name="inst_AE42132F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1l_object" x="64" y="128" name="inst_C68A9463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1t_object" x="96" y="192" name="inst_AC4A60AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1t_object" x="128" y="192" name="inst_37CC0E47" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1t_object" x="416" y="448" name="inst_905D1F5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1t_object" x="576" y="448" name="inst_FC938AA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1l_object" x="352" y="384" name="inst_1B4A9357" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1l_object" x="352" y="416" name="inst_3C301453" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1p_object" x="96" y="32" name="inst_0DCF0E9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1p_object" x="128" y="32" name="inst_836C1027" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1p_object" x="416" y="352" name="inst_6424C41C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1p_object" x="576" y="352" name="inst_9DC87DAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1pra_object" x="640" y="384" name="inst_4C985C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Automat1pra_object" x="640" y="416" name="inst_41836CE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

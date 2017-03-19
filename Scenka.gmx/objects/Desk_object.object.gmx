@@ -3,7 +3,7 @@
   <spriteName>Desk</spriteName>
   <solid>-1</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-101</depth>
   <persistent>0</persistent>
   <parentName>obj_wall</parentName>
   <maskName>&lt;undefined&gt;</maskName>

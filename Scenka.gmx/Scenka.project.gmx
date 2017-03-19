@@ -174,6 +174,7 @@
       <sprite>sprites\Piekarnik</sprite>
       <sprite>sprites\Zwlok</sprite>
       <sprite>sprites\Kominek</sprite>
+      <sprite>sprites\Inventory_Frame</sprite>
       <sprite>sprites\Toilet</sprite>
       <sprite>sprites\Obraz1</sprite>
       <sprite>sprites\obraz2</sprite>
@@ -184,13 +185,21 @@
     </sprites>
     <sprite>sprites\nic_spr</sprite>
     <sprite>sprites\publ_spr</sprite>
-    <sprite>sprites\ToiletPaper</sprite>
-    <sprite>sprites\ToiletPaperv2</sprite>
-    <sprite>sprites\Papier</sprite>
-    <sprite>sprites\Inventory_Frame</sprite>
+    <sprites name="Automatyy">
+      <sprite>sprites\Automat1l</sprite>
+      <sprite>sprites\Automat1l_anim</sprite>
+      <sprite>sprites\Automat1t</sprite>
+      <sprite>sprites\Automat1t_anim</sprite>
+      <sprite>sprites\Automat1p</sprite>
+      <sprite>sprites\Automat1p_anim</sprite>
+      <sprite>sprites\Automat1pra</sprite>
+      <sprite>sprites\Automat1pra_anim</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
+    <background>background\Murawa</background>
+    <background>background\Podloga_Automaty</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -269,7 +278,12 @@
     </objects>
     <object>objects\publ_obj</object>
     <object>objects\Obraz_Fizyka_object</object>
-    <object>objects\ToiletPaper_object</object>
+    <objects name="Automats">
+      <object>objects\Automat1l_object</object>
+      <object>objects\Automat1t_object</object>
+      <object>objects\Automat1p_object</object>
+      <object>objects\Automat1pra_object</object>
+    </objects>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -285,7 +299,6 @@
   <rooms name="rooms">
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
-    <room>rooms\TheTrueTutorial</room>
     <room>rooms\Sala_Fizyczna</room>
     <room>rooms\Scenka_Detektywistyczna</room>
     <room>rooms\Boisko</room>
