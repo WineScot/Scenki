@@ -267,6 +267,8 @@
     </objects>
     <object>objects\publ_obj</object>
     <object>objects\ToiletPaper_object</object>
+    <object>objects\ToiletPaper_v2</object>
+    <object>objects\Chair_inter</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -279,8 +281,8 @@
     <timeline>timelines\Detektyw_Timeline</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Tutorial_Nies</room>
     <room>rooms\TheTrueTutorial</room>
+    <room>rooms\Tutorial_Nies</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Scenka_Detektywistyczna</room>
     <room>rooms\Boisko</room>

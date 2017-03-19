@@ -31,10 +31,10 @@ przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk)
 {
         id.sprite_index=ToiletPaperv2;
-        var paper;
-        paper=ds_map_create();
-        ds_map_add(paper,Papier,1);
-        ds_map_add(eq,gracz,paper);
+        instance_create(x,y,ToiletPaper_v2);
+        instance_destroy();
+        ds_map_add(tru,Papier,1);
+        ds_map_add(eq,gracz,tru);
 }
 </string>
           </argument>
