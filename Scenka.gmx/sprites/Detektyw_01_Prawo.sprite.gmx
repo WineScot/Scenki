@@ -7,9 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>10</bbox_left>
-  <bbox_right>21</bbox_right>
-  <bbox_top>2</bbox_top>
+  <bbox_left>7</bbox_left>
+  <bbox_right>22</bbox_right>
+  <bbox_top>3</bbox_top>
   <bbox_bottom>29</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -21,8 +21,5 @@
   <height>32</height>
   <frames>
     <frame index="0">images\Detektyw_01_Prawo_0.png</frame>
-    <frame index="1">images\Detektyw_01_Prawo_1.png</frame>
-    <frame index="2">images\Detektyw_01_Prawo_2.png</frame>
-    <frame index="3">images\Detektyw_01_Prawo_3.png</frame>
   </frames>
 </sprite>

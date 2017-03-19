@@ -19,11 +19,11 @@ pos2=ds_map_create();
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 ds_map_add(iid,1,Nauczyciel_object.id);
-ds_map_add(iid,9,Girl_02_object.id);
+ds_map_add(iid,4,Boy_02_object.id);
 
 globalvar menu; //do menu wybierania postaci
 menu[0]=1;
-menu[1]=9;
+menu[1]=4;
 ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
 var m;
 for(m=0;m&lt;array_length_1d(menu);m++)
@@ -126,8 +126,8 @@ czy2=0;</code>
     <instance objName="Punkty_object" x="288" y="320" name="inst_985ED980" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Dotimelina_1_object" x="576" y="224" name="inst_746FC8FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Dotimelina_2_object" x="608" y="224" name="inst_6FFED3FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Girl_02_object" x="128" y="160" name="inst_A45FEED0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat_object" x="256" y="32" name="inst_8C45736D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Boy_02_object" x="64" y="96" name="inst_108900B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
