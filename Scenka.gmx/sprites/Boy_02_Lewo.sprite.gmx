@@ -7,9 +7,9 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>11</bbox_left>
-  <bbox_right>18</bbox_right>
-  <bbox_top>3</bbox_top>
+  <bbox_left>10</bbox_left>
+  <bbox_right>21</bbox_right>
+  <bbox_top>2</bbox_top>
   <bbox_bottom>29</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
@@ -22,5 +22,7 @@
   <frames>
     <frame index="0">images\Boy_02_Lewo_0.png</frame>
     <frame index="1">images\Boy_02_Lewo_1.png</frame>
+    <frame index="2">images\Boy_02_Lewo_2.png</frame>
+    <frame index="3">images\Boy_02_Lewo_3.png</frame>
   </frames>
 </sprite>

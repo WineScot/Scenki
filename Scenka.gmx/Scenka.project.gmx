@@ -195,6 +195,8 @@
       <sprite>sprites\Automat1pra</sprite>
       <sprite>sprites\Automat1pra_anim</sprite>
     </sprites>
+	<sprite>sprites\ToiletPaper</sprite>
+	<sprite>sprites\ToiletPaperv2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
