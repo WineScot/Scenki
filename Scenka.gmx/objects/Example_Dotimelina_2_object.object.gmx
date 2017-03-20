@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>timeline_index=Punkty_Spr;
+timeline_position=1;
 timeline_running=true;
 </string>
           </argument>

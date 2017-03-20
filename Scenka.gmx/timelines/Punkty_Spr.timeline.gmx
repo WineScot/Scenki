@@ -19,6 +19,32 @@
         <arguments>
           <argument>
             <kind>1</kind>
+            <string>punkty=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
             <string>var m;
 var zakres_bledu=32;
 for(m=0;m&lt;array_length_1d(pkt_x);m++)
@@ -45,7 +71,7 @@ for(m=0;m&lt;array_length_1d(pkt_x);m++)
     </event>
   </entry>
   <entry>
-    <step>5</step>
+    <step>6</step>
     <event>
       <action>
         <libid>1</libid>
@@ -63,7 +89,7 @@ for(m=0;m&lt;array_length_1d(pkt_x);m++)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>timeline_position=0;
+            <string>timeline_position=1;
 </string>
           </argument>
         </arguments>

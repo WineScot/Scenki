@@ -39,7 +39,33 @@ zwrot[0]=-1;
     </event>
   </entry>
   <entry>
-    <step>210</step>
+    <step>1</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[0]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>30</step>
     <event>
       <action>
         <libid>1</libid>
@@ -58,17 +84,183 @@ zwrot[0]=-1;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=64; 
-active[moment]=158; 
-instancja[moment]=Girl_01_object.id; 
-zwrot[moment]=Girl_01Tyl; 
-moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=32; 
-active[moment]=158; 
-instancja[moment]=inst_ACEE5BDE; 
-zwrot[moment]=Automat1p_anim;
+pkt_x[moment]=352;
+pkt_y[moment]=256; 
+active[moment]=20; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonTyl; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>31</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>moment++;
+pkt_x[moment]=288;
+pkt_y[moment]=288; 
+active[moment]=10; 
+instancja[moment]=Detektyw_01_object.id; 
+zwrot[moment]=Detektyw_01Tyl; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>100</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[2]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>101</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>moment++;
+pkt_x[moment]=340;
+pkt_y[moment]=250; 
+active[moment]=8; 
+instancja[moment]=Detektyw_01_object.id; 
+zwrot[moment]=Detektyw_01Tyl; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>150</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>ative[1]=0;
+ative[3]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>180</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>moment++;
+pkt_x[moment]=340;
+pkt_y[moment]=250; 
+active[moment]=10; 
+instancja[moment]=Detektyw_01_object.id; 
+zwrot[moment]=Detektyw_01Tyl; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>250</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[4]=0;
 </string>
           </argument>
         </arguments>
@@ -95,11 +287,11 @@ zwrot[moment]=Automat1p_anim;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=432;
-pkt_y[moment]=384; 
-active[moment]=149; 
-instancja[moment]=Boy_01_object.id; 
-zwrot[moment]=Boy_01Tyl; 
+pkt_x[moment]=387;
+pkt_y[moment]=255; 
+active[moment]=1; 
+instancja[moment]=Detektyw_01_object.id; 
+zwrot[moment]=Detektyw_01Prawo; 
 </string>
           </argument>
         </arguments>
@@ -107,7 +299,7 @@ zwrot[moment]=Boy_01Tyl;
     </event>
   </entry>
   <entry>
-    <step>300</step>
+    <step>265</step>
     <event>
       <action>
         <libid>1</libid>
@@ -126,12 +318,12 @@ zwrot[moment]=Boy_01Tyl;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=416;
-pkt_y[moment]=352; 
-active[moment]=149; 
-instancja[moment]=inst_C686C329; 
-zwrot[moment]=Automat1p_anim; 
-
+pkt_x[moment]=300;
+pkt_y[moment]=247; 
+active[moment]=1; 
+instancja[moment]=Detektyw_01_object.id; 
+zwrot[moment]=Detektyw_01Prawo; 
+active[5]=0;
 </string>
           </argument>
         </arguments>
@@ -139,7 +331,33 @@ zwrot[moment]=Automat1p_anim;
     </event>
   </entry>
   <entry>
-    <step>335</step>
+    <step>270</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[6]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>275</step>
     <event>
       <action>
         <libid>1</libid>
@@ -158,19 +376,11 @@ zwrot[moment]=Automat1p_anim;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=635;
-pkt_y[moment]=430; 
-active[moment]=133; 
-instancja[moment]=Boy_02_object.id; 
-zwrot[moment]=Boy_02Prawo; 
-
-moment++;
-pkt_x[moment]=640;
-pkt_y[moment]=416; 
-active[moment]=133; 
-instancja[moment]=inst_A71C457A; 
-zwrot[moment]=Automat1l_anim; 
-
+pkt_x[moment]=556;
+pkt_y[moment]=208; 
+active[moment]=10; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonPrawo; 
 </string>
           </argument>
         </arguments>
@@ -178,7 +388,33 @@ zwrot[moment]=Automat1l_anim;
     </event>
   </entry>
   <entry>
-    <step>430</step>
+    <step>330</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[7]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>630</step>
     <event>
       <action>
         <libid>1</libid>
@@ -197,19 +433,11 @@ zwrot[moment]=Automat1l_anim;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=112;
-pkt_y[moment]=176; 
-active[moment]=114; 
-instancja[moment]=Boy_03_object.id; 
-zwrot[moment]=Boy_03Przod; 
-
-moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=192; 
-active[moment]=114; 
-instancja[moment]=inst_AB3F54DA; 
-zwrot[moment]=Automat1t_anim; 
-
+pkt_x[moment]=592;
+pkt_y[moment]=340; 
+active[moment]=6; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonPrawo; 
 </string>
           </argument>
         </arguments>
@@ -217,7 +445,7 @@ zwrot[moment]=Automat1t_anim;
     </event>
   </entry>
   <entry>
-    <step>500</step>
+    <step>660</step>
     <event>
       <action>
         <libid>1</libid>
@@ -236,11 +464,11 @@ zwrot[moment]=Automat1t_anim;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=386; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Lewo; 
+pkt_x[moment]=592;
+pkt_y[moment]=340; 
+active[moment]=6; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonLewo; 
 </string>
           </argument>
         </arguments>
@@ -248,7 +476,33 @@ zwrot[moment]=Boy_05Lewo;
     </event>
   </entry>
   <entry>
-    <step>600</step>
+    <step>670</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[8]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>690</step>
     <event>
       <action>
         <libid>1</libid>
@@ -274,7 +528,7 @@ zwrot[moment]=Boy_05Lewo;
     </event>
   </entry>
   <entry>
-    <step>700</step>
+    <step>760</step>
     <event>
       <action>
         <libid>1</libid>
@@ -293,11 +547,11 @@ zwrot[moment]=Boy_05Lewo;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=608;
-pkt_y[moment]=288; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Prawo; 
+pkt_x[moment]=460;
+pkt_y[moment]=320; 
+active[moment]=4; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonLewo; 
 </string>
           </argument>
         </arguments>
@@ -323,7 +577,7 @@ zwrot[moment]=Boy_05Prawo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[10]=0;
+            <string>active[9]=0;
 </string>
           </argument>
         </arguments>
@@ -331,7 +585,7 @@ zwrot[moment]=Boy_05Prawo;
     </event>
   </entry>
   <entry>
-    <step>900</step>
+    <step>970</step>
     <event>
       <action>
         <libid>1</libid>
@@ -350,11 +604,11 @@ zwrot[moment]=Boy_05Prawo;
           <argument>
             <kind>1</kind>
             <string>moment++;
-pkt_x[moment]=96;
-pkt_y[moment]=386; 
-active[moment]=20; 
-instancja[moment]=Boy_05_object.id; 
-zwrot[moment]=Boy_05Lewo; 
+pkt_x[moment]=448;
+pkt_y[moment]=288; 
+active[moment]=1; 
+instancja[moment]=Fake_chair.id; 
+zwrot[moment]=Chair; 
 </string>
           </argument>
         </arguments>
@@ -380,87 +634,7 @@ zwrot[moment]=Boy_05Lewo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[0]=0;
-active[1]=0;
-active[2]=0;
-active[3]=0;
-active[4]=0;
-active[5]=0;
-active[6]=0;
-active[7]=0;
-active[8]=0;
-active[11]=0;
-globalvar ll;
-ll=0;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-  </entry>
-  <entry>
-    <step>1002</step>
-    <event>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>ll++;
-if(ll&lt;30) if(keyboard_check_released(vk_space)) 
-{
-    czy2=1;
-    punkty++;
-    px=0;
-    py=576;
-    ds_map_add(czy,Boy_01_object.id,1);
-    ds_map_add(czy,Boy_02_object.id,1);
-    ds_map_add(czy,Boy_03_object.id,1);
-    ds_map_add(czy,Boy_05_object.id,1);
-    ds_map_add(czy,Girl_01_object.id,1);
-}
-else timeline_position=1000;
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-  </entry>
-  <entry>
-    <step>1003</step>
-    <event>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>if(czy2)
-{
-    px=50;
-    py=50;
-}
+            <string>active[10]=0;
 </string>
           </argument>
         </arguments>
@@ -486,9 +660,66 @@ else timeline_position=1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(file_exists("Save1.sav")) file_delete("Save1.sav");
-var S=file_text_open_write("Save1.sav");
-var wyn=floor(punkty/20);
+            <string>moment++;
+pkt_x[moment]=337;
+pkt_y[moment]=280; 
+active[moment]=20; 
+instancja[moment]=Watson_object.id; 
+zwrot[moment]=WatsonLewo; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1200</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>active[11]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1300</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(file_exists("Save2.sav")) file_delete("Save2.sav");
+var S=file_text_open_write("Save2.sav");
+var wyn=floor(punkty);
 file_text_write_real(S,wyn);
 file_text_close(S);
 

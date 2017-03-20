@@ -262,6 +262,7 @@ czy2=0;</code>
     <instance objName="Automat1pra_object" x="640" y="384" name="inst_9EEDC927" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1pra_object" x="640" y="416" name="inst_A71C457A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ToiletPaper_object" x="640" y="288" name="inst_53BEB2AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wylaczanie_Do_Menu_object" x="320" y="352" name="inst_AC36B744" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

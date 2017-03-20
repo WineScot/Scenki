@@ -252,6 +252,7 @@ czy2=1;</code>
     <instance objName="Automat1p_object" x="576" y="352" name="inst_9DC87DAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1pra_object" x="640" y="384" name="inst_4C985C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1pra_object" x="640" y="416" name="inst_41836CE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wylaczanie_Scenki_object" x="0" y="96" name="inst_0BCA9911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

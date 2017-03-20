@@ -21,10 +21,11 @@ iid=ds_map_create();
 ds_map_add(iid,13,Detektyw_01_object.id);
 ds_map_add(iid,14,Watson_object.id);
 
-globalvar menu; //do menu wybierania postaci
+globalvar menu;
+menu=0;
 menu[0]=13;
 menu[1]=14;
-//ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
+ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
 var m;
 for(m=0;m&lt;array_length_1d(menu);m++)
 ds_map_add(kierunek,ds_map_find_value(iid,menu[m]),0);
@@ -36,7 +37,7 @@ ds_map_add(inventory,Chair,1);
 ds_map_add(eq,ds_map_find_value(iid,menu[0]),inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=1;</code>
+czy2=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -67,7 +68,7 @@ czy2=1;</code>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="-1" objName="" xview="0" yview="0" wview="700" hview="500" xport="0" yport="0" wport="700" hport="500" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="&lt;undefined&gt;" xview="0" yview="0" wview="700" hview="500" xport="0" yport="0" wport="700" hport="500" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -193,7 +194,6 @@ czy2=1;</code>
     <instance objName="Example_Wall_object" x="96" y="96" name="inst_79896A77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="96" y="64" name="inst_425D2B35" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Wall_object" x="96" y="32" name="inst_B9ACBE60" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_object" x="128" y="384" name="inst_25378F5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="224" y="288" name="inst_A97509F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="288" y="224" name="inst_DEFF74C6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="160" y="224" name="inst_760AEE46" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -284,16 +284,20 @@ czy2=1;</code>
     <instance objName="Obraz1_object" x="320" y="32" name="inst_0DB4E121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obraz2_object" x="160" y="64" name="inst_F5D2FE0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Dywan_object" x="128" y="128" name="inst_9ADA6C5C" locked="0" code="" scaleX="7.19999980926514" scaleY="3.73333334922791" colour="4294967295" rotation="0"/>
+    <instance objName="Detektywi_Dotimelina_object" x="576" y="416" name="inst_BBC034D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Butalka_Po_Piwie_object" x="256" y="224" name="inst_FF06955E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Butalka_Po_Piwie_object" x="256" y="256" name="inst_15E25614" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Butalka_Po_Piwie_object" x="224" y="256" name="inst_5B561BB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Butalka_Po_Piwie_object" x="192" y="192" name="inst_ECA5D3BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chest_object" x="448" y="245" name="inst_9EABAD85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Timer_object" x="608" y="416" name="inst_0FE1EE3C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Detektyw_01_object" x="384" y="448" name="inst_DE54C607" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Watson_object" x="416" y="448" name="inst_7032A5F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Menu_Wybierania_Postaci_obj" x="64" y="64" name="inst_8863FF82" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Timer_object" x="544" y="448" name="inst_DBFC8D86" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Punkty_object" x="608" y="416" name="inst_3AD8F572" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Example_Dotimelina_2_object" x="640" y="416" name="inst_B90BE7A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Fake_chair" x="128" y="384" name="inst_BC82A81E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Wylaczanie_Do_Menu_object" x="160" y="416" name="inst_129F8671" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="128" y="128" w="32" h="32" xo="0" yo="0" id="10000248" name="inst_14D33697" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

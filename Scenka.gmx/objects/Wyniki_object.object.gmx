@@ -29,11 +29,40 @@
 draw_set_valign(fa_middle);
 draw_set_font(Long_Int);
 draw_set_colour(c_red);
-var m;
-for(m=0;m&lt;4;m+=1)
+var m=0;
+
+var wyn=0;
+
+if(file_exists("Save1.sav"))
 {
-    draw_text(x+space_menu_glowne,y+16+(m*120),string(m[m]));
+    var S=file_text_open_read("Save1.sav");
+    wyn=0;
+    wyn=file_text_read_real(S);
+    file_text_close(S);
 }
+draw_text(x+10,y+16+(m*130),string(wyn)+"/100");
+m++;
+wyn=0;
+if(file_exists("Save2.sav"))
+{
+    var S2=file_text_open_read("Save2.sav");
+    wyn=0;
+    wyn=file_text_read_real(S2);
+    file_text_close(S2);
+}
+draw_text(x+10,y+16+(m*130),string(wyn)+"/100");
+
+m++;
+wyn=0;
+if(file_exists("Save3.sav"))
+{
+    var S3=file_text_open_read("Save3.sav");
+    wyn=0;
+    wyn=file_text_read_real(S3);
+    file_text_close(S3);
+}
+draw_text(x+10,y+16+(m*130),string(wyn)+"/100");
+
 </string>
           </argument>
         </arguments>
