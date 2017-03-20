@@ -161,6 +161,7 @@
       <sprite>sprites\Chair</sprite>
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
+      <sprite>sprites\Strzalka_02</sprite>
       <sprite>sprites\Big_Desk</sprite>
       <sprite>sprites\Obraz_Fizyka_01</sprite>
       <sprite>sprites\Obraz_Fizyka_02</sprite>
@@ -205,6 +206,7 @@
     <background>background\Podloga</background>
     <background>background\Murawa</background>
     <background>background\Podloga_Automaty</background>
+    <background>background\Menu_Scenek_Background</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Kacper</path>
@@ -218,6 +220,8 @@
     <script>scripts\Ruch_Up.gml</script>
     <script>scripts\Ruch_Right.gml</script>
     <script>scripts\Ruch_Left.gml</script>
+    <script>scripts\scr_menu_glowne.gml</script>
+    <script>scripts\scr_menu_scenek.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt</font>
@@ -294,6 +298,9 @@
       <object>objects\Automat1pra_object</object>
     </objects>
     <object>objects\Projector_object</object>
+    <object>objects\Menu_Glowne_object</object>
+    <object>objects\Menu_Scenki_object</object>
+    <object>objects\Wyniki_object</object>
     <object>objects\ToiletPaper_object</object>
     <object>objects\ToiletPaperv2_object</object>
     <object>objects\Fake_chair</object>
@@ -311,13 +318,14 @@
     <timeline>timelines\Fizyka_Timeline</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Menu_Glowne</room>
+    <room>rooms\Menu_Scenki</room>
+    <room>rooms\Scenka_Detektywistyczna</room>
+    <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\TheTrueTutorial</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Sala_Fizyczna</room>
-    <room>rooms\Menu_Glowne</room>
-    <room>rooms\Scenka_Detektywistyczna</room>
-    <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\Boisko</room>
     <room>rooms\Example_Room</room>
   </rooms>
