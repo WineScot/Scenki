@@ -15,6 +15,8 @@ iid=ds_map_create();
 ds_map_clear(iid);
 ds_map_add(iid,13,Watson_object.id);
 ds_map_add(iid,8,Girl_01_object.id);
+wysw = true;
+mes_num = 0;
 
 globalvar menu; //do menu wybierania postaci
 menu[0]=13;
@@ -224,6 +226,7 @@ czy2=0;</code>
     <instance objName="Automat1p_object" x="384" y="32" name="inst_FF9F3674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1p_object" x="448" y="32" name="inst_7DEA5627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Do_Menu_object" x="0" y="352" name="inst_9F1EEEC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="fake_temp_object" x="192" y="224" name="inst_9D26E69D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="64" y="32" w="32" h="32" xo="0" yo="0" id="10000402" name="inst_45F921A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

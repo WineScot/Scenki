@@ -55,8 +55,9 @@ if (przycisk)
 {
         
         mp_potential_step(224,96,100,false);
-        //path_start(Kacper,0.3,
-        image_speed=0;
+        Boy_03_object.sprite_index=Boy_03Przod;
+        path_start(Kacper,0.3,path_action_reverse,false);
+        image_speed=1/15;
 }
 </string>
           </argument>
