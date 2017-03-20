@@ -317,6 +317,18 @@
     <timeline>timelines\Detektyw_Timeline</timeline>
     <timeline>timelines\Fizyka_Timeline</timeline>
   </timelines>
+  <rooms name="rooms">
+    <room>rooms\Menu_Glowne</room>
+    <room>rooms\Menu_Scenki</room>
+    <room>rooms\Scenka_Detektywistyczna</room>
+    <room>rooms\Room_Just_For_Score_Test</room>
+    <room>rooms\TheTrueTutorial</room>
+    <room>rooms\Tutorial</room>
+    <room>rooms\Tutorial_Nies</room>
+    <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Boisko</room>
+    <room>rooms\Example_Room</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
