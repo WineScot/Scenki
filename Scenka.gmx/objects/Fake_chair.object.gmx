@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="Example_Object">
+    <event eventtype="4" ename="Watson_object">
       <action>
         <libid>1</libid>
         <id>603</id>

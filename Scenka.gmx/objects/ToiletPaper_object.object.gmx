@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="Example_Object">
+    <event eventtype="4" ename="Boy_05_object">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -31,6 +31,9 @@ przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk)
 {
         instance_destroy();
+        var iks=ds_map_find_value(eq,Boy_05_object.id);
+        ds_map_add(iks,Paper,1);
+        ds_map_replace(eq,Boy_05_object,iks);
         instance_create(x,y,ToiletPaperv2_object);     
 }
 </string>
