@@ -38,7 +38,7 @@ eq=ds_map_create();
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
 czy2=1;
 
-window_set_fullscreen(true);  //FullScreen</code>
+//window_set_fullscreen(true);  //FullScreen</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

@@ -1,0 +1,19 @@
+switch(mpos_menu_glowne)
+{
+    case(1):
+    {
+        room_goto_next();
+        break;
+    };
+    case(2):
+    {
+        //scr_LoadGame();
+        break;
+    }
+    case(3):
+    {
+         game_end();
+         break;
+    }
+    default: break;
+}

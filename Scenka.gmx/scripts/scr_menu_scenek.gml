@@ -1,0 +1,24 @@
+switch(mpos_menu_glowne)
+{
+    case(1):
+    {
+        room_goto(TheTrueTutorial);
+        break;
+    };
+    case(2):
+    {
+        room_goto(Tutorial);
+        break;
+    }
+    case(3):
+    {
+         room_goto(Scenka_Detektywistyczna);
+         break;
+    }
+    case(4):
+    {
+         room_goto(Sala_Fizyczna);
+         break;
+    }
+    default: break;
+}
