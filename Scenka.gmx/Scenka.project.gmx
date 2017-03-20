@@ -163,6 +163,7 @@
       <sprite>sprites\Strzalka</sprite>
       <sprite>sprites\Big_Desk</sprite>
       <sprite>sprites\Obraz_Fizyka_01</sprite>
+      <sprite>sprites\Obraz_Fizyka_02</sprite>
     </sprites>
     <sprite>sprites\Automat</sprite>
     <sprite>sprites\Automat_anim</sprite>
@@ -192,7 +193,9 @@
   <backgrounds name="background">
     <background>background\Podloga</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\Kacper</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\Anim_ruch.gml</script>
     <script>scripts\Zmien_Kierunek.gml</script>
