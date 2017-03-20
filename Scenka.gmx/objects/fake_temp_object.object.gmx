@@ -25,7 +25,140 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(czy1) Anim_ruch();
+            <string>globalvar mes_num;
+globalvar wysw;
+if(mes_num == 0 &amp;&amp; wysw == true)
+{
+    Text_Box("Witaj w tutorialu!#Poznasz tutaj sterowanie i mechanike naszej gry#Aby przejsc dalej wcisnij K",2,0,320,-1,-1,false);
+    wysw = false;
+}
+else if(mes_num == 1 &amp;&amp; wysw == true)
+{
+    Text_Box("Gra polega na jak najdokladniejszym odwzorowaniu#wyswietlonej scenki. Wazny jest czas,#miejsce, wykonywane czynnosci oraz kierunek#w ktorym obrocona jest postac ",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 2 &amp;&amp; wysw == true)
+{
+    Text_Box("Aby poruszac sie postacia wybierz ja z bocznego#menu i kliknij PPM w miejsce docelowe",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 3 &amp;&amp; wysw == true)
+{
+    Text_Box("Mozesz obracac sie w miejscu za pomoca strzalek",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 4 &amp;&amp; wysw == true)
+{
+     Text_Box("Aby wejsc w interakcje z obiektem podejdz do niego i wcisnij ENTER.#Niektore obiekty, jak np. papiet toaletowy, mozna podnosic",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 5 &amp;&amp; wysw == true)
+{
+     Text_Box("Za pomoca klawiszy D, F, G mozna zmieniac szybkosc gry",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 6 &amp;&amp; wysw == true)
+{
+    Text_Box("Powodzenia!",2,0,320,-1,-1,false);
+     wysw = false;
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="75">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>mes_num++;
+wysw = true;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="71">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///najwolniej
+room_speed = 8;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="70">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///wolniej
+room_speed = 15;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="68">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///normalnie
+room_speed = 30;
 </string>
           </argument>
         </arguments>
