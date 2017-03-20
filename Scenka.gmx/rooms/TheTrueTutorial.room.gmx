@@ -154,7 +154,7 @@ tru=ds_map_create();</code>
     <instance objName="Kominek_object" x="32" y="32" name="inst_97781D74" locked="0" code="" scaleX="1.60000002384186" scaleY="1.79999995231628" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="32" y="32" name="inst_D5104D23" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="64" y="32" name="inst_B3D459F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="ToiletPaper_object" x="576" y="32" name="inst_8C045CD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="576" y="32" name="inst_8C045CD0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat_object" x="224" y="32" name="inst_467E6E9B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Nauczyciel_object" x="352" y="160" name="inst_EDB0CE4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="publ_obj" x="32" y="384" name="inst_073A4AB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -224,7 +224,7 @@ tru=ds_map_create();</code>
     <instance objName="Chair_object" x="448" y="215" name="inst_786FCFF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Zwloki_object" x="96" y="224" name="inst_B4BB6891" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chest_object" x="475" y="11" name="inst_D6AC34B8" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="Chair_inter" x="224" y="224" name="inst_A493D06C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="224" y="224" name="inst_A493D06C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="64" y="32" w="32" h="32" xo="0" yo="0" id="10000402" name="inst_45F921A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

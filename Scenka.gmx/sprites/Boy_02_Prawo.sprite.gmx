@@ -22,7 +22,5 @@
   <frames>
     <frame index="0">images\Boy_02_Prawo_0.png</frame>
     <frame index="1">images\Boy_02_Prawo_1.png</frame>
-    <frame index="2">images\Boy_02_Prawo_2.png</frame>
-    <frame index="3">images\Boy_02_Prawo_3.png</frame>
   </frames>
 </sprite>

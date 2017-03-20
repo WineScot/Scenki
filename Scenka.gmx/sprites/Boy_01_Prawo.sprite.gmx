@@ -21,5 +21,6 @@
   <height>32</height>
   <frames>
     <frame index="0">images\Boy_01_Prawo_0.png</frame>
+    <frame index="1">images\Boy_01_Prawo_1.png</frame>
   </frames>
 </sprite>
