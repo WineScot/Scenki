@@ -247,6 +247,7 @@
       <object>objects\Shelf_object</object>
       <object>objects\Lampa_object</object>
       <object>objects\Table_Object</object>
+      <object>objects\Tablica_inter</object>
       <object>objects\Desk_object</object>
       <object>objects\Wall_Przod_object</object>
       <object>objects\Chair_object</object>
