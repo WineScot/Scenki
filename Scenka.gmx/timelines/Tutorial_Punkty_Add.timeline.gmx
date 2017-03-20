@@ -486,11 +486,24 @@ else timeline_position=1000;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(file_exists("Save1.sav")) file_delete("Save1.sav");
-var S=file_text_open_write("Save1.sav");
+            <string>var comp=0;
+if(file_exists("Save1.sav"))
+{
+    var S=file_text_open_read("Save1.sav");
+    comp=file_text_read_real(S);
+    file_text_close(S);
+}
 var wyn=floor(punkty/20);
-file_text_write_real(S,wyn);
-file_text_close(S);
+if(wyn&gt;comp)
+{
+    if(file_exists("Save1.sav")) file_delete("Save1.sav");
+    var SS=file_text_open_write("Save1.sav");
+     file_text_write_real(SS,wyn);
+    file_text_close(SS);
+}
+
+ds_map_clear(czy);
+ds_map_clear(eq);
 
 room_goto(Menu_Scenki);
 </string>

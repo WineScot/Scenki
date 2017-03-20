@@ -207,6 +207,7 @@
     <background>background\Murawa</background>
     <background>background\Podloga_Automaty</background>
     <background>background\Menu_Scenek_Background</background>
+    <background>background\Credits</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Kacper</path>
@@ -289,6 +290,7 @@
       <object>objects\Detektywdotimelina_object</object>
       <object>objects\Fizyka_Dotimelina</object>
       <object>objects\Detektywi_Dotimelina_object</object>
+      <object>objects\Fizyka_Dotimelina_object</object>
     </objects>
     <object>objects\publ_obj</object>
     <object>objects\Obraz_Fizyka_object</object>
@@ -307,6 +309,8 @@
     <object>objects\Fake_chair</object>
     <object>objects\Wylaczanie_Scenki_object</object>
     <object>objects\Wylaczanie_Do_Menu_object</object>
+    <object>objects\Do_Menu_ze_scenkowego__menu_object</object>
+    <object>objects\Wychodzenie_z_gry_ESC_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -320,6 +324,7 @@
     <timeline>timelines\Detektyw_Timeline</timeline>
     <timeline>timelines\Fizyka_Timeline</timeline>
     <timeline>timelines\Detektywistyczna_Punkty_Add</timeline>
+    <timeline>timelines\Fizyka_Punkty_Add</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Menu_Glowne</room>
@@ -334,6 +339,7 @@
     <room>rooms\Sala_Fizyczna_Nies</room>
     <room>rooms\Boisko</room>
     <room>rooms\Example_Room</room>
+    <room>rooms\Autorzy</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

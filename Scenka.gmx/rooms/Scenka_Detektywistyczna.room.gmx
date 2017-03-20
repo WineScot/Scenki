@@ -19,17 +19,6 @@ pos2=ds_map_create();
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 
-//ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
-var m;
-for(m=0;m&lt;array_length_1d(menu);m++)
-ds_map_add(kierunek,ds_map_find_value(iid,menu[m]),0);
-
-globalvar inventory,eq; //mapa do ekwipunku
-inventory=ds_map_create();
-eq=ds_map_create();
-ds_map_add(inventory,Chair,1);
-ds_map_add(eq,ds_map_find_value(iid,menu[0]),inventory);
-
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
 czy2=1;</code>
   <enableViews>-1</enableViews>

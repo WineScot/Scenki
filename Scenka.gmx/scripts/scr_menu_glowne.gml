@@ -7,7 +7,7 @@ switch(mpos_menu_glowne)
     };
     case(2):
     {
-        //scr_LoadGame();
+        room_goto(Autorzy);
         break;
     }
     case(3):

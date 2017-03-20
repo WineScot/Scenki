@@ -37,7 +37,10 @@ ds_map_add(inventory,Chair,1);
 ds_map_add(eq,ds_map_find_value(iid,menu[0]),inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=0;</code>
+czy2=0;
+
+globalvar punkty;
+punkty=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

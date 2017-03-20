@@ -19,11 +19,14 @@ pos2=ds_map_create();
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 ds_map_add(iid,1,Nauczyciel_object.id);
+ds_map_add(iid,2,suicide_object.id);
+ds_map_add(iid,5,Boy_03_object.id);
 
 globalvar menu; //do menu wybierania postaci
+menu=0;
 menu[0]=1;
 menu[1]=2;
-menu[2]=4;
+menu[2]=5;
 ds_map_add(czy,ds_map_find_value(iid,menu[0]),1);
 var m;
 for(m=0;m&lt;array_length_1d(menu);m++)
@@ -36,7 +39,8 @@ eq=ds_map_create();
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
 czy2=0;
 
-//window_set_fullscreen(true);  //FullScreen</code>
+globalvar punkty;
+punkty=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -186,8 +190,7 @@ czy2=0;
     <instance objName="Girl_03_object" x="512" y="288" name="inst_869947F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Boy_02_object" x="496" y="256" name="inst_8E585AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Boy_03_object" x="512" y="160" name="inst_18FF9C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Fizyka_Dotimelina" x="448" y="32" name="inst_25544700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Timer_object" x="448" y="64" name="inst_B0283C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="576" y="0" name="inst_B0283C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="192" y="0" name="inst_C325C82C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="64" y="0" name="inst_206848E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="96" y="0" name="inst_A1B836EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -195,7 +198,11 @@ czy2=0;
     <instance objName="Wall_Przod_object" x="160" y="0" name="inst_4DF89086" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obraz_Fizyka_object" x="320" y="0" name="inst_75A3F8AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Projector_object" x="352" y="128" name="inst_FBF9C4BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Fizyka_Dotimelina_object" x="0" y="96" name="inst_39D98175" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Do_Menu_object" x="0" y="128" name="inst_E21263A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Example_Dotimelina_2_object" x="0" y="64" name="inst_ED989F65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Menu_Wybierania_Postaci_obj" x="0" y="32" name="inst_149A0826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Punkty_object" x="192" y="160" name="inst_B84AEFF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
