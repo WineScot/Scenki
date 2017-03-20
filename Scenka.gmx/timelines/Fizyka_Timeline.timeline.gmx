@@ -792,7 +792,7 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>px=368;
-py=96;
+py=110;
 ds_map_add(czy,Nauczyciel_object.id,1);
 </string>
           </argument>
@@ -933,7 +933,7 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
-    <step>1067</step>
+    <step>1090</step>
     <event>
       <action>
         <libid>1</libid>
@@ -951,8 +951,41 @@ ds_map_clear(czy);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>Obraz_Fizyka_object.sprite_index = Obraz_Fizyka_02;
-Obraz_Fizyka_object.id.image_speed = 1/30;
+            <string>px=336;
+py=288;
+ds_map_add(czy,Boy_03_object.id,1);
+Obraz_Fizyka_object.sprite_index = Obraz_Fizyka_02;
+Obraz_Fizyka_object.image_speed = (1/30);
+Nauczyciel_object.sprite_index = Nauczyciel_Przod;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1091</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
@@ -979,6 +1012,62 @@ Obraz_Fizyka_object.id.image_speed = 1/30;
           <argument>
             <kind>1</kind>
             <string>Obraz_Fizyka_object.id.image_speed = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1276</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=192;
+py=160;
+ds_map_add(czy,Nauczyciel_object.id,1);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1277</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>px=50;
+py=50;
+ds_map_clear(czy);
 </string>
           </argument>
         </arguments>
