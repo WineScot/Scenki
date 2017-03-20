@@ -307,8 +307,8 @@
     <timeline>timelines\Fizyka_Timeline</timeline>
   </timelines>
   <rooms name="rooms">
-    <room>rooms\Menu_Glowne</room>
     <room>rooms\Sala_Fizyczna</room>
+    <room>rooms\Menu_Glowne</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Scenka_Detektywistyczna</room>
