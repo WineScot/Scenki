@@ -294,6 +294,7 @@
     <object>objects\Projector_object</object>
     <object>objects\ToiletPaper_object</object>
     <object>objects\ToiletPaperv2_object</object>
+    <object>objects\Fake_chair</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
