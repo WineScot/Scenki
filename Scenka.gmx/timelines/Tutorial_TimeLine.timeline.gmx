@@ -410,7 +410,7 @@ ds_map_clear(czy);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=624;
+            <string>px=656;
 py=304;
 ds_map_add(czy,Boy_05_object.id,1);
 </string>
@@ -442,6 +442,32 @@ ds_map_add(czy,Boy_05_object.id,1);
 py=50;
 ds_map_clear(czy);
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>760</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>inst_284B3C64.sprite_index=ToiletPaperv2;
 </string>
           </argument>
         </arguments>
@@ -531,6 +557,7 @@ ds_map_add(czy,Boy_02_object.id,1);
 ds_map_add(czy,Boy_03_object.id,1);
 ds_map_add(czy,Boy_05_object.id,1);
 ds_map_add(czy,Girl_01_object.id,1);
+audio_play_sound(Clock_Ring,20,false);
 </string>
           </argument>
         </arguments>

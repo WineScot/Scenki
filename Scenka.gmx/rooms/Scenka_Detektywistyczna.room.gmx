@@ -20,7 +20,10 @@ globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=1;</code>
+czy2=1;
+
+audio_stop_all()  //Muzyka
+audio_play_sound(Detektywistyczna_Music,10,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -97,14 +100,6 @@ czy2=1;</code>
     <instance objName="Lampa_object" x="640" y="32" name="inst_2E7EEE15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lampa_object" x="384" y="32" name="inst_DA1BE3CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Lampa_object" x="128" y="32" name="inst_0B9B0A65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="544" y="110" name="inst_6F72A866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="512" y="110" name="inst_B59D14E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="608" y="110" name="inst_04050A1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="640" y="110" name="inst_AFAF6EF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="640" y="192" name="inst_379CE6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="640" y="224" name="inst_B2B3F404" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="640" y="256" name="inst_C466D8F1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Blat_object" x="640" y="288" name="inst_82A9B675" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_object" x="512" y="192" name="inst_A817B19F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obraz1_object" x="320" y="32" name="inst_0DB4E121" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obraz2_object" x="160" y="64" name="inst_F5D2FE0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -278,6 +273,15 @@ czy2=1;</code>
     <instance objName="sufit_object" x="480" y="480" name="inst_01014BE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="416" y="480" name="inst_8D2DC06B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="480" name="inst_7E210AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="640" y="192" name="inst_FEC44B2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="640" y="224" name="inst_35A09DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="640" y="288" name="inst_F123B931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="640" y="256" name="inst_D1EE103D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="640" y="32" name="inst_E17EB1D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Wchodzony" x="512" y="110" name="inst_E6B99688" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Wchodzony" x="544" y="110" name="inst_2620A1DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Wchodzony" x="608" y="110" name="inst_893B0F70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Wchodzony" x="640" y="110" name="inst_1B82308A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="128" y="128" w="32" h="32" xo="0" yo="0" id="10000248" name="inst_14D33697" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -51,7 +51,10 @@ globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
 czy2=0;
 
 globalvar punkty;
-punkty=0;</code>
+punkty=0;
+
+audio_stop_all()  //Muzyka
+audio_play_sound(Automaty_Music,10,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

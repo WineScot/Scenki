@@ -38,7 +38,9 @@ ds_map_add(eq,Watson_object.id,inventory);
 ds_map_add(eq,Girl_01_object.id,inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=0;</code>
+czy2=0;
+
+audio_stop_all()  //Muzyka</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -226,7 +228,8 @@ czy2=0;</code>
     <instance objName="Automat1p_object" x="384" y="32" name="inst_FF9F3674" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1p_object" x="448" y="32" name="inst_7DEA5627" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Do_Menu_object" x="0" y="352" name="inst_9F1EEEC0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="fake_temp_object" x="192" y="224" name="inst_95ECB4DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="fake_temp_object" x="192" y="224" name="inst_9D26E69D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="660" y="32" name="inst_BB18C774" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="64" y="32" w="32" h="32" xo="0" yo="0" id="10000402" name="inst_45F921A4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
