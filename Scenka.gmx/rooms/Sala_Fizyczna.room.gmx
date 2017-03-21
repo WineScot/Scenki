@@ -59,16 +59,6 @@ czy2=1;</code>
   </views>
   <instances>
     <instance objName="Nauczyciel_object" x="560" y="32" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="416" y="128" name="inst_AFA95572" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="384" y="128" name="inst_118565D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="352" y="128" name="inst_8A93DBF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="320" y="128" name="inst_A69620AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="288" y="128" name="inst_C24012BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="256" y="128" name="inst_45F40DF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="416" y="192" name="inst_9FA10408" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="416" y="224" name="inst_AA0A0ABE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="416" y="256" name="inst_28976CD7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Example_Wall_object" x="416" y="288" name="inst_66A8AE14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="192" name="inst_72DF53C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="256" name="inst_0B51FCA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="320" name="inst_D10AF044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -112,14 +102,12 @@ czy2=1;</code>
     <instance objName="Boy_02_object" x="496" y="256" name="inst_8E585AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Boy_03_object" x="512" y="160" name="inst_18FF9C33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Fizyka_Dotimelina" x="448" y="32" name="inst_25544700" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Timer_object" x="448" y="64" name="inst_B0283C02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="192" y="0" name="inst_C325C82C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="64" y="0" name="inst_206848E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="96" y="0" name="inst_A1B836EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="128" y="0" name="inst_9E3AA946" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="160" y="0" name="inst_4DF89086" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Obraz_Fizyka_object" x="320" y="0" name="inst_75A3F8AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Projector_object" x="352" y="128" name="inst_FBF9C4BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Scenki_object" x="672" y="320" name="inst_5CBC3D10" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="0" y="0" name="inst_26D5E4CF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="0" y="32" name="inst_580A1F08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -163,7 +151,6 @@ czy2=1;</code>
     <instance objName="sufit_object" x="448" y="160" name="inst_BB2EE113" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="128" name="inst_0FA755A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="96" name="inst_4713629E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sufit_object" x="448" y="64" name="inst_CCEB8181" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="32" name="inst_BC0463FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="0" name="inst_F02A7A5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="576" y="0" name="inst_3E8DE0CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -177,6 +164,19 @@ czy2=1;</code>
     <instance objName="sufit_object" x="576" y="256" name="inst_9ECF546A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="576" y="320" name="inst_FADFC604" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="576" y="288" name="inst_7D7A24C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="256" y="128" name="inst_42044BA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="288" y="128" name="inst_049A8EDB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="320" y="128" name="inst_7A4C3336" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="352" y="128" name="inst_BEB4730B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="384" y="128" name="inst_C8D09AC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_object" x="416" y="128" name="inst_55A5355E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Projector_object" x="352" y="128" name="inst_832A36E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="416" y="192" name="inst_FA028EE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="416" y="224" name="inst_3FCEAD91" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="416" y="288" name="inst_7A2129C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Blat_Bokiem_object" x="416" y="256" name="inst_4790A98A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Timer_object" x="566" y="32" name="inst_FCD3F73E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sufit_object" x="448" y="64" name="inst_6F810786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

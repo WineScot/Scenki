@@ -88,9 +88,9 @@ if(tmp!=mpos) scr_Menu_Postaci(mpos);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_font(fnt);
+            <string>draw_set_font(Do_Menu_Pos);
 draw_set_colour(c_red);
-draw_text(view_xview,view_yview,"Menu wyboru postaci:");
+draw_text(view_xview,view_yview+10,"Menu wyboru postaci:");
 var m;
 for(m=0;m&lt;array_length_1d(menu);m+=1)
 {

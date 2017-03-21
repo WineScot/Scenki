@@ -202,6 +202,7 @@
     <sprite>sprites\ToiletPaperv2</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
     <sprite>sprites\sufit</sprite>
+    <sprite>sprites\Blat_Bokiem</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -228,6 +229,7 @@
   <fonts name="fonts">
     <font>fonts\fnt</font>
     <font>fonts\Long_Int</font>
+    <font>fonts\Do_Menu_Pos</font>
   </fonts>
   <objects name="objects">
     <objects name="Postacie">
@@ -314,6 +316,7 @@
     <object>objects\Do_Menu_ze_scenkowego__menu_object</object>
     <object>objects\Wychodzenie_z_gry_ESC_object</object>
     <object>objects\sufit_object</object>
+    <object>objects\Blat_Bokiem_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
