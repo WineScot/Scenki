@@ -201,6 +201,7 @@
     <sprite>sprites\Paper</sprite>
     <sprite>sprites\ToiletPaperv2</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
+    <sprite>sprites\sufit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -274,6 +275,7 @@
     <object>objects\Example_Wall_object</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Zmiana_Predkosci_object</object>
     <objects name="Temps">
       <object>objects\Menu_Wybierania_Postaci_obj</object>
       <object>objects\text_obj</object>
@@ -311,6 +313,7 @@
     <object>objects\Wylaczanie_Do_Menu_object</object>
     <object>objects\Do_Menu_ze_scenkowego__menu_object</object>
     <object>objects\Wychodzenie_z_gry_ESC_object</object>
+    <object>objects\sufit_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -325,23 +328,8 @@
     <timeline>timelines\Fizyka_Timeline</timeline>
     <timeline>timelines\Detektywistyczna_Punkty_Add</timeline>
     <timeline>timelines\Fizyka_Punkty_Add</timeline>
-    <timeline>timelines\Wejscie</timeline>
   </timelines>
-  <rooms name="rooms">
-    <room>rooms\Menu_Glowne</room>
-    <room>rooms\Menu_Scenki</room>
-    <room>rooms\TheTrueTutorial</room>
-    <room>rooms\Tutorial</room>
-    <room>rooms\Tutorial_Nies</room>
-    <room>rooms\Scenka_Detektywistyczna</room>
-    <room>rooms\Scenka_Detektywistyczna_Nies</room>
-    <room>rooms\Sala_Fizyczna</room>
-    <room>rooms\Sala_Fizyczna_Nies</room>
-    <room>rooms\Room_Just_For_Score_Test</room>
-    <room>rooms\Boisko</room>
-    <room>rooms\Example_Room</room>
-    <room>rooms\Autorzy</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
