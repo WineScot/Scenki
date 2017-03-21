@@ -79,6 +79,15 @@ ds_map_clear(czy);
             <string>px=496;
 py=336;
 ds_map_add(czy,Nauczyciel_object.id,1);
+
+Text_Box("Dzien Dobry",2,490,160,-1,-1,2);
+Text_Box("Dzien Dobry",2,490,224,-1,-1,2);
+Text_Box("Dzien Dobry",2,490,256,-1,-1,2);
+Text_Box("Dzien Dobry",2,490,288,-1,-1,2);
+Text_Box("Dzien Dobry",2,490,384,-1,-1,2);
+Text_Box("Dzien Dobry",2,490,384,-1,-1,2);
+
+
 </string>
           </argument>
         </arguments>
@@ -165,6 +174,8 @@ with(drzwi.id)
             <string>px=560;
 py=320;
 ds_map_add(czy,Nauczyciel_object.id,1);
+Text_Box("Dzien dobry",2,490,320,-1,-1,2);
+
 </string>
           </argument>
         </arguments>
@@ -590,6 +601,32 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
+    <step>330</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Text_Box("Zetrzyj tablice, Kacper",2,sor2.x,sor2.y,-1,-1,3);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>410</step>
     <event>
       <action>
@@ -777,6 +814,32 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
+    <step>780</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Text_Box("Skoro już tu jestes...",2,sor2.x,sor2.y,-1,-1,3);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>790</step>
     <event>
       <action>
@@ -878,15 +941,13 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>Nauczyciel_object.id.sprite_index=NauczycielPrzod;
+
+Text_Box("Na podstawie informacji ze zdjecia#i wlasnych informacji oblicz#potencjal grawitacyjny na powierzchn#Marsa",2,sor2.x-100,sor2.y,-1,-1,3);
+
 </string>
           </argument>
         </arguments>
       </action>
-    </event>
-  </entry>
-  <entry>
-    <step>900</step>
-    <event>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -911,7 +972,7 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
-    <step>910</step>
+    <step>990</step>
     <event>
       <action>
         <libid>1</libid>
@@ -930,6 +991,34 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>Nauczyciel_object.sprite_index=NauczycielLewo;
+Text_Box("13,8645372579 J/m",2,Boy_03_object.x,Boy_03_object.y,-1,-1,3);
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1040</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Text_Box("Niestety,#wynik to 13,8645372735 J/m",2,sor2.x,sor2.y,-1,-1,2);
 </string>
           </argument>
         </arguments>

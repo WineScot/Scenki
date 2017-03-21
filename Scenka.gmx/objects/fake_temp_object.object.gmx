@@ -29,47 +29,47 @@
 globalvar wysw;
 if(mes_num == 0 &amp;&amp; wysw == true)
 {
-    Text_Box("Witaj w tutorialu!#Poznasz tutaj sterowanie i mechanike naszej gry#Aby przejsc dalej wcisnij K",2,0,320,-1,-1,false);
+    Text_Box("Witaj w tutorialu!#Poznasz tutaj sterowanie i mechanike naszej gry#Aby przejsc dalej wcisnij K",2,0,320,-1,-1,-1);
     wysw = false;
 }
 else if(mes_num == 1 &amp;&amp; wysw == true)
 {
-    Text_Box("Gra polega na jak najdokladniejszym odwzorowaniu#wyswietlonej scenki. Wazny jest czas,#miejsce, wykonywane czynnosci oraz kierunek#w ktorym obrocona jest postac ",2,0,320,-1,-1,false);
+    Text_Box("Gra polega na jak najdokladniejszym odwzorowaniu#wyswietlonej scenki. Wazny jest czas,#miejsce, wykonywane czynnosci oraz kierunek#w ktorym obrocona jest postac ",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 2 &amp;&amp; wysw == true)
 {
-    Text_Box("Aby poruszac sie postacia wybierz ja z bocznego menu za pomocą W i S#i kliknij PPM w miejsce docelowe",2,0,320,-1,-1,false);
+    Text_Box("Aby poruszac sie postacia wybierz ja z bocznego menu za pomocą W i S#i kliknij PPM w miejsce docelowe",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 3 &amp;&amp; wysw == true)
 {
-    Text_Box("Mozesz obracac sie w miejscu za pomoca strzalek",2,0,320,-1,-1,false);
+    Text_Box("Mozesz obracac sie w miejscu za pomoca strzalek",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 4 &amp;&amp; wysw == true)
 {
-     Text_Box("Aby wejsc w interakcje z obiektem podejdz do niego i wcisnij ENTER.#Niektore obiekty, jak np. papiet toaletowy, mozna podnosic",2,0,320,-1,-1,false);
+     Text_Box("Aby wejsc w interakcje z obiektem podejdz do niego i wcisnij ENTER.#Niektore obiekty, jak np. papiet toaletowy, mozna podnosic",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 5 &amp;&amp; wysw == true)
 {
-     Text_Box("Za pomoca klawiszy D, F, G mozna zmieniac szybkosc gry",2,0,320,-1,-1,false);
+     Text_Box("Za pomoca klawiszy D, F, G mozna zmieniac szybkosc gry",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 6 &amp;&amp; wysw == true)
 {
-    Text_Box("W niektorych przypadkach bedziesz mogl wykonac akcje globalna#za pomoca SPACJA. Sam musisz domyslic sie kiedy mozesz to zrobic.",2,0,320,-1,-1,false);
+    Text_Box("W niektorych przypadkach bedziesz mogl wykonac akcje globalna#za pomoca SPACJA. Sam musisz domyslic sie kiedy mozesz to zrobic.",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 7 &amp;&amp; wysw == true)
 {
-    Text_Box("Aby ulatwic ci zadanie, w lewym gornym rogu zostal umieszczony Timer.",2,0,320,-1,-1,false);
+    Text_Box("Aby ulatwic ci zadanie, w lewym gornym rogu zostal umieszczony Timer.",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 8 &amp;&amp; wysw == true)
 {
-    Text_Box("Powodzenia!",2,0,320,-1,-1,false);
+    Text_Box("Powodzenia!",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 7 &amp;&amp; wysw == true)

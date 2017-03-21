@@ -1,9 +1,15 @@
-//textbox("text",speed,x,y,position,id)
+//textbox("text",speed,x,y,position,id,die)
 txt = instance_create(argument2,argument3,text_obj);
 
 with(txt)
 {
-    die = argument6;
+    if(argument6 != -1)
+    {
+        alarm[0] = 30*argument6;
+        die = argument6;
+    }
+    else
+        die = 0;
     padding = 8;
     maxlength = view_wview[0];
     text = argument0;

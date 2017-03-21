@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-1001</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -29,7 +29,6 @@
 print = "";
 time = 0;
 depth = depth - instance_number(text_obj);
-alarm[0] = 120;
 </string>
           </argument>
         </arguments>
@@ -52,7 +51,7 @@ alarm[0] = 120;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(die == true)
+            <string>if(die != 0)
     instance_destroy();
 </string>
           </argument>

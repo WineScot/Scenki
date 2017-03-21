@@ -60,7 +60,7 @@ audio_stop_all()  //Muzyka</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="Nauczyciel_object" x="560" y="32" name="inst_F8FF4676" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Nauczyciel_object" x="560" y="32" name="sor2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="192" name="inst_72DF53C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="256" name="inst_0B51FCA1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="256" y="320" name="inst_D10AF044" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -179,6 +179,7 @@ audio_stop_all()  //Muzyka</code>
     <instance objName="Timer_object" x="566" y="32" name="inst_FCD3F73E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="64" name="inst_6F810786" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="352" name="inst_63659E2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Zmiana_Predkosci_object" x="352" y="224" name="inst_03FC0C00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
