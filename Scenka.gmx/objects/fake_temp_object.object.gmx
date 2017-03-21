@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -77,6 +77,12 @@ else if(mes_num == 9 &amp;&amp; wysw == true)
     Text_Box("Powodzenia!",2,0,320,-1,-1,false);
      wysw = false;
 }
+else if(mes_num == 7 &amp;&amp; wysw == true)
+{
+    room_goto(1);
+     wysw = false;
+}
+
 
 </string>
           </argument>

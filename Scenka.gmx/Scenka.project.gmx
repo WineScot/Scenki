@@ -339,6 +339,7 @@
     <timeline>timelines\Fizyka_Timeline</timeline>
     <timeline>timelines\Detektywistyczna_Punkty_Add</timeline>
     <timeline>timelines\Fizyka_Punkty_Add</timeline>
+    <timeline>timelines\Wejscie</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Menu_Glowne</room>

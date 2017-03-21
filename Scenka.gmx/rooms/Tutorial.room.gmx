@@ -15,6 +15,8 @@ czy=ds_map_create();
 kierunek=ds_map_create();
 pos1=ds_map_create();
 pos2=ds_map_create();
+wysw = false;
+mes_num = 100;
 
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
@@ -255,6 +257,7 @@ audio_play_sound(Automaty_Music,10,true);</code>
     <instance objName="Automat1pra_object" x="640" y="384" name="inst_4C985C25" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1pra_object" x="640" y="416" name="inst_41836CE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Scenki_object" x="0" y="96" name="inst_0BCA9911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="fake_temp_object" x="416" y="32" name="inst_A31BE118" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ToiletPaper_object" x="640" y="288" name="inst_284B3C64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
