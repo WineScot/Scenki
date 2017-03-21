@@ -141,8 +141,6 @@ czy2 = 0;
 py=352;
 ds_map_add(czy,Girl_03_object.id,1);
 czy2 = 1;
-show_message("dlaczego nie działą???");
-
 </string>
           </argument>
         </arguments>
