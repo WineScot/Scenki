@@ -28,8 +28,8 @@
             <string>menu_glowne[0]="WYBIERZ SCENKE";
 menu_glowne[1]="Tutorial";
 menu_glowne[2]="Automaty";
-menu_glowne[3]="Sledztwo";
-menu_glowne[4]="Lekcja Fizyki";
+menu_glowne[3]="Lekcja Fizyki";
+menu_glowne[4]="Sledztwo";
 space_menu_glowne=130;
 mpos_menu_glowne=1;
 

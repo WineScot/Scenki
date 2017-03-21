@@ -15,6 +15,8 @@ czy=ds_map_create();
 kierunek=ds_map_create();
 pos1=ds_map_create();
 pos2=ds_map_create();
+globalvar rotated;
+rotated = false;
 
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
@@ -42,7 +44,11 @@ czy2=0;
 globalvar punkty;
 punkty=0;
 globalvar akcjai;
-akcjai=0;</code>
+akcjai=0;
+audio_stop_all()  //Muzyka
+audio_play_sound(Fizyka_Music,10,true);
+globalvar pressed;
+pressed=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -110,8 +116,7 @@ akcjai=0;</code>
     <instance objName="Chair_object" x="128" y="288" name="inst_C6614FA2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="96" y="288" name="inst_A2EC4645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="96" y="224" name="inst_9616CE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Drzwi_object" x="448" y="320" name="inst_AD58CC2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Drzwi_object" x="448" y="352" name="inst_BAED4B9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Drzwi_object" x="448" y="320" name="drzwi2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="64" y="224" name="inst_6C1D31D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="128" y="224" name="inst_A9F4E449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="128" y="352" name="inst_E89F1109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -205,6 +210,7 @@ akcjai=0;</code>
     <instance objName="Blat_Bokiem_object" x="416" y="256" name="inst_FDA40255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_Bokiem_object" x="416" y="288" name="inst_035CABF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Tablica_inter" x="154" y="111" name="inst_2AE23CD9" locked="0" code="" scaleX="3.70967745780945" scaleY="2.8125" colour="4294967295" rotation="0"/>
+    <instance objName="sufit_object" x="448" y="352" name="inst_0F38A8BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

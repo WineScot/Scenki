@@ -31,7 +31,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="Example_Object">
+    <event eventtype="4" ename="Boy_03_object">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,7 +51,6 @@
             <string>var gracz=ds_map_find_first(czy);
 var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
-if (gracz==Boy_03_object.id)
 if (przycisk)
 {
         image_speed=1/15;

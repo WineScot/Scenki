@@ -380,7 +380,8 @@ zwrot[moment]=Boy_05Lewo;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>active[0]=0;
+            <string>audio_play_sound(Clock_Ring,20,false);
+active[0]=0;
 active[1]=0;
 active[2]=0;
 active[3]=0;
@@ -421,7 +422,7 @@ ll=0;
 if(ll&lt;30) if(keyboard_check_released(vk_space)) 
 {
     czy2=1;
-    punkty++;
+    punkty+=100;
     px=0;
     py=576;
     ds_map_add(czy,Boy_01_object.id,1);
@@ -493,7 +494,7 @@ if(file_exists("Save1.sav"))
     comp=file_text_read_real(S);
     file_text_close(S);
 }
-var wyn=floor(punkty/20);
+var wyn=floor(punkty/15);
 if(wyn&gt;comp)
 {
     if(file_exists("Save1.sav")) file_delete("Save1.sav");

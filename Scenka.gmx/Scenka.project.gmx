@@ -4,7 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Automaty_Music</sound>
+    <sound>sound\Menu_Music</sound>
+    <sound>sound\Detektywistyczna_Music</sound>
+    <sound>sound\Clock_Ring</sound>
+    <sound>sound\Fizyka_Music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Postacie">
       <sprites name="Nauczyciel">
@@ -215,6 +221,7 @@
     <background>background\Podloga_Automaty</background>
     <background>background\Menu_Scenek_Background</background>
     <background>background\Credits</background>
+    <background>background\Menu_Glowne_Back</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Kacper</path>
@@ -326,6 +333,7 @@
     <object>objects\sufit_object</object>
     <object>objects\Sufitv2</object>
     <object>objects\Blat_Bokiem_object</object>
+    <object>objects\Blat_Wchodzony</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
@@ -340,6 +348,7 @@
     <timeline>timelines\Fizyka_Timeline</timeline>
     <timeline>timelines\Detektywistyczna_Punkty_Add</timeline>
     <timeline>timelines\Fizyka_Punkty_Add</timeline>
+    <timeline>timelines\Wejscie</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Sala_Fizyczna_Nies</room>

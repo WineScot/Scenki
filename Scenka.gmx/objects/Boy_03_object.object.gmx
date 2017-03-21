@@ -32,6 +32,7 @@ przycisk=keyboard_check_pressed(vk_enter);
 if (akcjai==0)
 if (przycisk)
 {
+        pressed=1;
         akcjai=1;
        while(x!=192 and y!=96)
         mp_potential_step(192,96,1,false);
@@ -39,10 +40,11 @@ if (przycisk)
             path_start(Kacper,0.3,path_action_reverse,false);
 
 }
-if (x&lt;110)
+if (x&lt;110 and pressed==1)
 {
 path_end();
 Tablica_inter.sprite_index=Czysta;
+pressed=0;
 }
 
 

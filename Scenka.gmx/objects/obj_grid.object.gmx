@@ -35,6 +35,8 @@ global.grid = mp_grid_create(0,0,hcells,wcells,cell_width,cell_height);
 
 //Dodanie scian
 mp_grid_add_instances(global.grid,obj_wall,false);
+
+
 </string>
           </argument>
         </arguments>
