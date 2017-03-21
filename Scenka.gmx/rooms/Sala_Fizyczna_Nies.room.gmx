@@ -43,8 +43,12 @@ czy2=0;
 
 globalvar punkty;
 punkty=0;
-
-audio_stop_all()  //Muzyka</code>
+globalvar akcjai;
+akcjai=0;
+audio_stop_all()  //Muzyka
+audio_play_sound(Fizyka_Music,10,true);
+globalvar pressed;
+pressed=0;</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -100,7 +104,6 @@ audio_stop_all()  //Muzyka</code>
     <instance objName="Wall_Przod_object" x="384" y="0" name="inst_F19AD71E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="416" y="0" name="inst_F2F1658E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wall_Przod_object" x="32" y="0" name="inst_166601F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Table_Object" x="160" y="96" name="inst_12E70D7D" locked="0" code="" scaleX="4.21875" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="288" y="224" name="inst_04B29ABB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="224" name="inst_1CABFED8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="256" y="288" name="inst_B2817E56" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -201,11 +204,12 @@ audio_stop_all()  //Muzyka</code>
     <instance objName="Blat_object" x="352" y="128" name="inst_921915B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_object" x="384" y="128" name="inst_50FD0AAE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_object" x="416" y="128" name="inst_BA994224" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Projector_object" x="352" y="128" name="inst_722D7B16" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_Bokiem_object" x="416" y="192" name="inst_AB178F30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_Bokiem_object" x="416" y="224" name="inst_CCBF8B64" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_Bokiem_object" x="416" y="256" name="inst_FDA40255" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Blat_Bokiem_object" x="416" y="288" name="inst_035CABF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Projector_object" x="352" y="145" name="inst_CC326564" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
+    <instance objName="Tablica_inter" x="154" y="111" name="inst_2AE23CD9" locked="0" code="" scaleX="3.70967745780945" scaleY="2.8125" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="352" name="inst_0F38A8BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Zmiana_Predkosci_object" x="384" y="224" name="inst_DC24310E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Nauczyciel_object" x="32" y="480" name="inst_EB5B5DEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

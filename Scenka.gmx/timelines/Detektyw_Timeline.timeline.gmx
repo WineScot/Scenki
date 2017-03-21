@@ -1799,7 +1799,7 @@ ds_map_clear(czy);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_create(448,288,Chair_object);
+            <string>instance_create(448,288,Chairv3);
 </string>
           </argument>
         </arguments>

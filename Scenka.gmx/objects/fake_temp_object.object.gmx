@@ -69,7 +69,12 @@ else if(mes_num == 7 &amp;&amp; wysw == true)
 }
 else if(mes_num == 8 &amp;&amp; wysw == true)
 {
-    Text_Box("Powodzenia!",2,0,320,-1,-1,-1);
+    Text_Box("Wyjsc mozesz klawiszem ESCAPE.",2,0,320,-1,-1,false);
+     wysw = false;
+}
+else if(mes_num == 9 &amp;&amp; wysw == true)
+{
+    Text_Box("Powodzenia!",2,0,320,-1,-1,false);
      wysw = false;
 }
 else if(mes_num == 7 &amp;&amp; wysw == true)

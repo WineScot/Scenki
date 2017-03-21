@@ -3,7 +3,7 @@
   <spriteName>Chair</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-500</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -30,7 +30,7 @@ var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk)
 {
-        instance_destroy();
+        id.sprite_index=Nic;
         var iks=ds_map_find_value(eq,Watson_object.id);
         ds_map_add(iks,Chair,1);
         ds_map_replace(eq,Watson_object.id,iks);
