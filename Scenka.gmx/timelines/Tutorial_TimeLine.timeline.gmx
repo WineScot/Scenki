@@ -557,6 +557,7 @@ ds_map_add(czy,Boy_02_object.id,1);
 ds_map_add(czy,Boy_03_object.id,1);
 ds_map_add(czy,Boy_05_object.id,1);
 ds_map_add(czy,Girl_01_object.id,1);
+audio_play_sound(Clock_Ring,20,false);
 </string>
           </argument>
         </arguments>

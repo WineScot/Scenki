@@ -40,7 +40,10 @@ ds_map_add(inventory,Chair,1);
 ds_map_add(eq,ds_map_find_value(iid,menu[0]),inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=1;</code>
+czy2=1;
+
+audio_stop_all()  //Muzyka
+audio_play_sound(Automaty_Music,10,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

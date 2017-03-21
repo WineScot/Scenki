@@ -20,7 +20,10 @@ globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=1;</code>
+czy2=1;
+
+audio_stop_all()  //Muzyka
+audio_play_sound(Detektywistyczna_Music,10,true);</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

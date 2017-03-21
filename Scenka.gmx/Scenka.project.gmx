@@ -4,7 +4,12 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\Automaty_Music</sound>
+    <sound>sound\Menu_Music</sound>
+    <sound>sound\Detektywistyczna_Music</sound>
+    <sound>sound\Clock_Ring</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Postacie">
       <sprites name="Nauczyciel">

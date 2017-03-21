@@ -17,7 +17,9 @@ pos1=ds_map_create();
 pos2=ds_map_create();
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=1;</code>
+czy2=1;
+
+audio_stop_all()  //Muzyka</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>

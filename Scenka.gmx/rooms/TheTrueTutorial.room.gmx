@@ -38,7 +38,9 @@ ds_map_add(eq,Watson_object.id,inventory);
 ds_map_add(eq,Girl_01_object.id,inventory);
 
 globalvar czy2; //zmienna do aktywnoci ruchu spoza scenki
-czy2=0;</code>
+czy2=0;
+
+audio_stop_all()  //Muzyka</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
