@@ -12,12 +12,12 @@ switch(mpos_menu_glowne)
     }
     case(3):
     {
-         room_goto(Scenka_Detektywistyczna);
+         room_goto(Sala_Fizyczna);
          break;
     }
     case(4):
     {
-         room_goto(Sala_Fizyczna);
+         room_goto(Scenka_Detektywistyczna);
          break;
     }
     default: break;

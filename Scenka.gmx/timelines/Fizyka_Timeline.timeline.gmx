@@ -133,6 +133,10 @@ ds_map_clear(czy);
           <argument>
             <kind>1</kind>
             <string>Nauczyciel_object.id.sprite_index=NauczycielLewo;
+with(drzwi.id)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

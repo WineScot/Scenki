@@ -15,6 +15,9 @@ czy=ds_map_create();
 kierunek=ds_map_create();
 pos1=ds_map_create();
 pos2=ds_map_create();
+wysw = false;
+mes_num = 100;
+
 
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
