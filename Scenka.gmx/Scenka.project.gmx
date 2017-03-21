@@ -9,6 +9,7 @@
     <sound>sound\Menu_Music</sound>
     <sound>sound\Detektywistyczna_Music</sound>
     <sound>sound\Clock_Ring</sound>
+    <sound>sound\Fizyka_Music</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Postacie">
@@ -215,6 +216,7 @@
     <background>background\Podloga_Automaty</background>
     <background>background\Menu_Scenek_Background</background>
     <background>background\Credits</background>
+    <background>background\Menu_Glowne_Back</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\Kacper</path>
