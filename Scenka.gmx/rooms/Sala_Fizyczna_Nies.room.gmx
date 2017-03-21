@@ -15,6 +15,8 @@ czy=ds_map_create();
 kierunek=ds_map_create();
 pos1=ds_map_create();
 pos2=ds_map_create();
+globalvar rotated;
+rotated = false;
 
 globalvar iid;  //mapa do zamiany id na objekt
 iid=ds_map_create();
@@ -176,7 +178,6 @@ punkty=0;</code>
     <instance objName="Chair_object" x="96" y="288" name="inst_A2EC4645" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="96" y="224" name="inst_9616CE18" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Drzwi_object" x="448" y="320" name="inst_AD58CC2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Drzwi_object" x="448" y="352" name="inst_BAED4B9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="64" y="224" name="inst_6C1D31D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="128" y="224" name="inst_A9F4E449" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="128" y="352" name="inst_E89F1109" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -203,6 +204,7 @@ punkty=0;</code>
     <instance objName="Example_Dotimelina_2_object" x="0" y="64" name="inst_ED989F65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Menu_Wybierania_Postaci_obj" x="0" y="32" name="inst_149A0826" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Punkty_object" x="192" y="160" name="inst_B84AEFF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="448" y="352" name="inst_5DF343DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

@@ -146,10 +146,10 @@ zwrot[moment]=NauczycielPrzod;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds_map_clear(czy);
-px=80;
+            <string>//ds_map_clear(czy);
+/*px=80;
 py=352;
-ds_map_add(czy,Girl_01_object.id,1);
+//ds_map_add(czy,Girl_01_object.id,1);*/
 czy2=1;
 </string>
           </argument>
@@ -176,9 +176,9 @@ czy2=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=50;
+            <string>/*px=50;
 py=50;
-ds_map_clear(czy);
+ds_map_clear(czy);*/
 czy2=0;
 </string>
           </argument>
@@ -205,9 +205,9 @@ czy2=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=150;
+            <string>/*px=150;
 py=352;
-ds_map_add(czy,Girl_02_object.id,1);
+//ds_map_add(czy,Girl_02_object.id,1);*/
 czy2=1;
 </string>
           </argument>
@@ -234,9 +234,9 @@ czy2=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=50;
+            <string>/*px=50;
 py=50;
-ds_map_clear(czy);
+ds_map_clear(czy);*/
 czy2=0;
 </string>
           </argument>
@@ -263,9 +263,9 @@ czy2=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=112;
+            <string>/*px=112;
 py=352;
-ds_map_add(czy,Girl_03_object.id,1);
+//ds_map_add(czy,Girl_03_object.id,1);*/
 czy2=1;
 </string>
           </argument>
@@ -292,9 +292,9 @@ czy2=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=50;
+            <string>/*px=50;
 py=50;
-ds_map_clear(czy);
+ds_map_clear(czy);*/
 czy2=0;
 </string>
           </argument>
@@ -321,9 +321,9 @@ czy2=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=112;
+            <string>/*px=112;
 py=288;
-ds_map_add(czy,Boy_02_object.id,1);
+ds_map_add(czy,Boy_02_object.id,1);*/
 czy2=1;
 </string>
           </argument>
@@ -350,9 +350,9 @@ czy2=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=50;
+            <string>/*px=50;
 py=50;
-ds_map_clear(czy);
+ds_map_clear(czy);*/
 czy2=0;
 </string>
           </argument>
