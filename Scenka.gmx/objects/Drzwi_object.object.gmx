@@ -29,11 +29,14 @@
 var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk &amp;&amp; !rotated)
-{
-    image_angle += 90;   
-    rotated = true;
+{  
     timeline_index = Wejscie;
     timeline_running = true;
+    with(drzwi2.id)
+    {
+        instance_destroy();
+    }
+
 }
 
 
