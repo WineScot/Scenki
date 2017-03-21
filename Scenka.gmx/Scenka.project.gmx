@@ -317,6 +317,7 @@
     <object>objects\Wychodzenie_z_gry_ESC_object</object>
     <object>objects\sufit_object</object>
     <object>objects\Blat_Bokiem_object</object>
+    <object>objects\Blat_Wchodzony</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
