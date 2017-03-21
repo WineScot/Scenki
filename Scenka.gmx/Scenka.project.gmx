@@ -201,6 +201,7 @@
     <sprite>sprites\Paper</sprite>
     <sprite>sprites\ToiletPaperv2</sprite>
     <sprite>sprites\Inventory_Frame</sprite>
+    <sprite>sprites\sufit</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -274,6 +275,7 @@
     <object>objects\Example_Wall_object</object>
     <object>objects\Interact_Object</object>
     <object>objects\fake_temp_object</object>
+    <object>objects\Zmiana_Predkosci_object</object>
     <objects name="Temps">
       <object>objects\Menu_Wybierania_Postaci_obj</object>
       <object>objects\text_obj</object>
@@ -311,6 +313,7 @@
     <object>objects\Wylaczanie_Do_Menu_object</object>
     <object>objects\Do_Menu_ze_scenkowego__menu_object</object>
     <object>objects\Wychodzenie_z_gry_ESC_object</object>
+    <object>objects\sufit_object</object>
   </objects>
   <timelines name="timelines">
     <timeline>timelines\Table_Annimation</timeline>
