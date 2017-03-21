@@ -205,9 +205,9 @@ czy2=0;</code>
     <instance objName="obj_grid" x="192" y="160" name="inst_C11F174A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Ekwipunek_obj" x="192" y="192" name="inst_55EA278C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Butalka_Po_Piwie_object" x="576" y="288" name="inst_AE328132" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Butalka_Po_Piwie_object" x="570" y="293" name="inst_86F2B596" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Butalka_Po_Piwie_object" x="565" y="290" name="inst_0FF2026F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Butalka_Po_Piwie_object" x="571" y="283" name="inst_16A017F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Butalka_Po_Piwie_object" x="567" y="278" name="inst_86F2B596" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Butalka_Po_Piwie_object" x="581" y="274" name="inst_0FF2026F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Butalka_Po_Piwie_object" x="587" y="287" name="inst_16A017F9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Desk_object" x="448" y="224" name="inst_A4997EED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="448" y="261" name="inst_4650ABBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="480" y="260" name="inst_60116A8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -216,7 +216,6 @@ czy2=0;</code>
     <instance objName="Chair_object" x="480" y="216" name="inst_16790B36" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Chair_object" x="448" y="215" name="inst_786FCFF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Zwloki_object" x="96" y="224" name="inst_B4BB6891" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Chest_object" x="517" y="16" name="inst_D6AC34B8" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="Watson_object" x="352" y="160" name="inst_BAA25EE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Fake_chair" x="640" y="32" name="inst_BF541CAB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Automat1p_object" x="128" y="32" name="inst_31492D50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

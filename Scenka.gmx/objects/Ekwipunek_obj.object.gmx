@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(Inventory_Frame,0,318,468);
+            <string>var p;
+draw_sprite(Inventory_Frame,0,318,468);
 if (ds_map_exists(eq,ds_map_find_first(czy)))
 {
 var t=ds_map_find_value(eq,ds_map_find_first(czy));
@@ -33,14 +34,15 @@ draw_sprite(Inventory_Frame,0,318,468);
 
 if(!ds_map_empty(t))
 {
-var p=ds_map_find_first(t);
+p=ds_map_find_first(t);
 draw_sprite(p,0,318,468);
 }
-if (ds_map_size(t)&gt;2)
+if (ds_map_size(t)&gt;=2)
 {
 p=ds_map_find_last(t);
 draw_sprite(p,0,350,468);
 }}
+
 </string>
           </argument>
         </arguments>

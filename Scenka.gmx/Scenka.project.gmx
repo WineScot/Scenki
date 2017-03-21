@@ -152,12 +152,14 @@
       <sprites name="Tablica">
         <sprite>sprites\Tablice</sprite>
         <sprite>sprites\Table_anim</sprite>
+        <sprite>sprites\Czysta</sprite>
       </sprites>
       <sprites name="Sciany">
         <sprite>sprites\Example_Wall</sprite>
         <sprite>sprites\Wall_Przod</sprite>
       </sprites>
       <sprite>sprites\Desk</sprite>
+      <sprite>sprites\Desk1</sprite>
       <sprite>sprites\Chair</sprite>
       <sprite>sprites\Drzwi</sprite>
       <sprite>sprites\Strzalka</sprite>
@@ -203,6 +205,9 @@
     <sprite>sprites\Inventory_Frame</sprite>
     <sprite>sprites\sufit</sprite>
     <sprite>sprites\Blat_Bokiem</sprite>
+    <sprite>sprites\Klucz</sprite>
+    <sprite>sprites\Nic</sprite>
+    <sprite>sprites\List</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Podloga</background>
@@ -257,8 +262,11 @@
       <object>objects\Table_Object</object>
       <object>objects\Tablica_inter</object>
       <object>objects\Desk_object</object>
+      <object>objects\Desk_inter</object>
       <object>objects\Wall_Przod_object</object>
+      <object>objects\Wall_objectv2</object>
       <object>objects\Chair_object</object>
+      <object>objects\Chairv3</object>
       <object>objects\Drzwi_object</object>
       <object>objects\Kominek_object</object>
       <object>objects\Automat_object</object>
@@ -316,6 +324,7 @@
     <object>objects\Do_Menu_ze_scenkowego__menu_object</object>
     <object>objects\Wychodzenie_z_gry_ESC_object</object>
     <object>objects\sufit_object</object>
+    <object>objects\Sufitv2</object>
     <object>objects\Blat_Bokiem_object</object>
   </objects>
   <timelines name="timelines">
@@ -333,16 +342,16 @@
     <timeline>timelines\Fizyka_Punkty_Add</timeline>
   </timelines>
   <rooms name="rooms">
+    <room>rooms\Sala_Fizyczna_Nies</room>
+    <room>rooms\Scenka_Detektywistyczna_Nies</room>
     <room>rooms\Menu_Glowne</room>
     <room>rooms\Menu_Scenki</room>
     <room>rooms\Scenka_Detektywistyczna</room>
-    <room>rooms\Scenka_Detektywistyczna_Nies</room>
     <room>rooms\Room_Just_For_Score_Test</room>
     <room>rooms\TheTrueTutorial</room>
     <room>rooms\Tutorial</room>
     <room>rooms\Tutorial_Nies</room>
     <room>rooms\Sala_Fizyczna</room>
-    <room>rooms\Sala_Fizyczna_Nies</room>
     <room>rooms\Boisko</room>
     <room>rooms\Example_Room</room>
     <room>rooms\Autorzy</room>

@@ -514,7 +514,7 @@ zwrot[moment]=NauczycielPrzod;
 pkt_x[moment]=128;
 pkt_y[moment]=32; 
 active[moment]=65; 
-instancja[moment]=Table_Object.id; 
+instancja[moment]=Tablica_inter.id; 
 zwrot[moment]=Table_anim; 
 </string>
           </argument>
