@@ -64,7 +64,7 @@ else if(mes_num == 6 &amp;&amp; wysw == true)
 }
 else if(mes_num == 7 &amp;&amp; wysw == true)
 {
-    Text_Box("Aby ulatwic ci zadanie, w lewym gornym rogu zostal umieszczony Timer.",2,0,320,-1,-1,-1);
+    Text_Box("Aby ulatwic ci zadanie, w prawym gornym rogu zostal umieszczony Timer.",2,0,320,-1,-1,-1);
      wysw = false;
 }
 else if(mes_num == 8 &amp;&amp; wysw == true)
