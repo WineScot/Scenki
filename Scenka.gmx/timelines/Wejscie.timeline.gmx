@@ -19,7 +19,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>ds_map_clear(czy);
+            <string>pos=ds_map_find_first(czy);
+ds_map_clear(czy);
 px=80;
 py=352;
 ds_map_add(czy,Girl_01_object.id,1);
@@ -54,6 +55,7 @@ czy2 = 1;
 py=50;
 ds_map_clear(czy);
 czy2 = 0;
+ds_map_add(czy,pos,1);
 </string>
           </argument>
         </arguments>
@@ -79,7 +81,9 @@ czy2 = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=150;
+            <string>ds_map_add(czy,pos,1);
+ds_map_clear(czy);
+px=150;
 py=352;
 ds_map_add(czy,Girl_02_object.id,1);
 czy2 = 1;
@@ -112,6 +116,7 @@ czy2 = 1;
 py=50;
 ds_map_clear(czy);
 czy2 = 0;
+ds_map_add(czy,pos,1);
 </string>
           </argument>
         </arguments>
@@ -137,7 +142,9 @@ czy2 = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=112;
+            <string>ds_map_add(czy,pos,1);
+ds_map_clear(czy);
+px=112;
 py=352;
 ds_map_add(czy,Girl_03_object.id,1);
 czy2 = 1;
@@ -170,6 +177,7 @@ czy2 = 1;
 py=50;
 ds_map_clear(czy);
 czy2 = 0;
+ds_map_add(czy,pos,1);
 </string>
           </argument>
         </arguments>
@@ -195,7 +203,9 @@ czy2 = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>px=112;
+            <string>ds_map_add(czy,pos,1);
+ds_map_clear(czy);
+px=112;
 py=288;
 ds_map_add(czy,Boy_02_object.id,1);
 czy2 = 1;
@@ -228,6 +238,7 @@ czy2 = 1;
 py = 50;
 ds_map_clear(czy);
 czy2 = 0;
+ds_map_add(czy,pos,1);
 </string>
           </argument>
         </arguments>
