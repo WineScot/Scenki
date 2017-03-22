@@ -1020,7 +1020,7 @@ ds_map_clear(czy);
             <kind>1</kind>
             <string>Nauczyciel_object.id.sprite_index=NauczycielPrzod;
 
-Text_Box("Dlaczego ta flaga nie powiewa?",2,sor2.x-100,sor2.y,-1,-1,3);
+Text_Box("Dlaczego ta flaga powiewa?",2,sor2.x-100,sor2.y,-1,-1,3);
 
 </string>
           </argument>

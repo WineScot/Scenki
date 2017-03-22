@@ -774,7 +774,7 @@ pkt_xd[momentd]=368;
 pkt_yd[momentd]=110; 
 actived[momentd]=1; 
 instancjad[momentd]=Nauczyciel_object.id; 
-tekst[momentd]="Dlaczego ta flaga nie powiewa?";
+tekst[momentd]="Dlaczego ta flaga powiewa?";
 </string>
           </argument>
         </arguments>
@@ -1107,7 +1107,7 @@ active[14]=0;
     </event>
   </entry>
   <entry>
-    <step>1350</step>
+    <step>1400</step>
     <event>
       <action>
         <libid>1</libid>

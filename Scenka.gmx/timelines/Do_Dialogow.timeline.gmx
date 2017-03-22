@@ -31,7 +31,7 @@ for(m=0;m&lt;array_length_1d(pkt_xd);m++)
         if(player.y&lt;=pkt_yd[m]+zakres_bledu &amp;&amp; player.y&gt;=pkt_yd[m]-zakres_bledu)
         {
                     actived[m]=0;
-                    Text_Box(tekst[m],2,player.x,player.y,-1,-1,3);
+                    Text_Box(tekst[m],2,player.x-32,player.y,-1,-1,3);
         }
         
     }
