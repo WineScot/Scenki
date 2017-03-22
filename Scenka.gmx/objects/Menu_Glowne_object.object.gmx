@@ -98,7 +98,7 @@ if(push==1) scr_menu_glowne();
             <string>draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(Long_Int);
-draw_set_colour(c_yellow);
+draw_set_colour(c_white);
 var m;
 for(m=0;m&lt;array_length_1d(menu_glowne);m+=1)
 {
