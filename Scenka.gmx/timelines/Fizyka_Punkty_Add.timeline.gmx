@@ -26,12 +26,26 @@ active=0;
 zwrot=0;
 instancja=0;
 
+globalvar pkt_xd, pkt_yd, actived, momentd, instancjad, tekst;
+pkt_xd=0;
+pkt_yd=0;
+actived=0;
+instancjad=0;
+tekst=0;
+
 moment=0;
 pkt_x[0]=-1;
 pkt_y[0]=-1; 
 active[0]=-1; 
 instancja[0]=-1; 
 zwrot[0]=-1; 
+
+momentd=0;
+pkt_xd[0]=-1;
+pkt_yd[0]=-1; 
+actived[0]=-1; 
+instancjad[0]=-1; 
+tekst[0]=-1;
 </string>
           </argument>
         </arguments>
@@ -63,6 +77,37 @@ pkt_y[moment]=336;
 active[moment]=5; 
 instancja[moment]=Nauczyciel_object.id; 
 zwrot[moment]=NauczycielLewo; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>120</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=560;
+pkt_yd[momentd]=320; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="Dzien dobry";
 </string>
           </argument>
         </arguments>
@@ -121,6 +166,32 @@ pkt_y[moment]=320;
 active[moment]=25; 
 instancja[moment]=Nauczyciel_object.id; 
 zwrot[moment]=NauczycielPrzod; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>160</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[1]=0;
 </string>
           </argument>
         </arguments>
@@ -217,6 +288,63 @@ zwrot[moment]=Boy_03Tyl;
     </event>
   </entry>
   <entry>
+    <step>330</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=352;
+pkt_yd[momentd]=320; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="Zetrzyj tablice, Kacper";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>400</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[2]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>410</step>
     <event>
       <action>
@@ -272,6 +400,182 @@ pkt_y[moment]=32;
 active[moment]=65; 
 instancja[moment]=Tablica_inter.id; 
 zwrot[moment]=Table_anim; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>430</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=208;
+pkt_yd[momentd]=160; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="O! Mamy chetnego do zadanek# Zrobisz 783 zdania na jutro.#Brak 1 zadania to jedynka.";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>540</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=112;
+pkt_yd[momentd]=288; 
+actived[momentd]=1; 
+instancjad[momentd]=Boy_02_object.id; 
+tekst[momentd]="Nauczycielu! A moze zamiast tego# wszyscy zrobia po 160 zadan?";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>600</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[3]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>620</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=208;
+pkt_yd[momentd]=160; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="OK. To wszyscy na jutro po 160 zadan.#A nasz samobojca dodatkowo 783.";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>760</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[4]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>780</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=208;
+pkt_yd[momentd]=160; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="Skoro juz tu jestes...";
 </string>
           </argument>
         </arguments>
@@ -395,6 +699,32 @@ active[8]=0;
     </event>
   </entry>
   <entry>
+    <step>850</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[5]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>870</step>
     <event>
       <action>
@@ -419,6 +749,32 @@ pkt_y[moment]=110;
 active[moment]=5; 
 instancja[moment]=Nauczyciel_object.id; 
 zwrot[moment]=NauczycielPrzod; 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=368;
+pkt_yd[momentd]=110; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="Dlaczego ta flaga nie powiewa?";
 </string>
           </argument>
         </arguments>
@@ -514,6 +870,63 @@ zwrot[moment]=Obraz_Fizyka_01;
     </event>
   </entry>
   <entry>
+    <step>970</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>actived[6]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>990</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=192;
+pkt_yd[momentd]=96; 
+actived[momentd]=1; 
+instancjad[momentd]=Boy_03_object.id; 
+tekst[momentd]="Yyy... Bo wiatr wieje...";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>1000</step>
     <event>
       <action>
@@ -533,6 +946,37 @@ zwrot[moment]=Obraz_Fizyka_01;
           <argument>
             <kind>1</kind>
             <string>active[3]=0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1040</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=368;
+pkt_yd[momentd]=110; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="...";
 </string>
           </argument>
         </arguments>

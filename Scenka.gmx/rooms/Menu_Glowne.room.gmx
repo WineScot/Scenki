@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>window_set_fullscreen(true);  //FullScreen
+  <code>//window_set_fullscreen(true);  //FullScreen
 
 if(!audio_is_playing(Menu_Music))
 {

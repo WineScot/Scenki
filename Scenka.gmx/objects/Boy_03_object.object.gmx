@@ -45,6 +45,7 @@ if (x&lt;110 and pressed==1)
 path_end();
 Tablica_inter.sprite_index=Czysta;
 pressed=0;
+menu[2]=5;
 }
 
 

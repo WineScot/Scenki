@@ -11,6 +11,32 @@
     <event eventtype="4" ename="Example_Object">
       <action>
         <libid>1</libid>
+        <id>115</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_bounce</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="Nauczyciel_object">
+      <action>
+        <libid>1</libid>
         <id>603</id>
         <kind>7</kind>
         <userelative>0</userelative>
@@ -28,15 +54,15 @@
             <string>var gracz=ds_map_find_first(czy);
 var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
-if (przycisk &amp;&amp; !rotated)
+if (przycisk)
 {  
-    timeline_index = Wejscie;
-    timeline_running = true;
     with(drzwi2.id)
     {
         instance_destroy();
     }
-
+    timeline_index = Wejscie;
+    timeline_position=0;
+    timeline_running = true;
 }
 
 

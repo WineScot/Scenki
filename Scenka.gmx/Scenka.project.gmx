@@ -310,6 +310,7 @@
       <object>objects\Fizyka_Dotimelina</object>
       <object>objects\Detektywi_Dotimelina_object</object>
       <object>objects\Fizyka_Dotimelina_object</object>
+      <object>objects\Do_Timelina_Dia</object>
     </objects>
     <object>objects\publ_obj</object>
     <object>objects\Obraz_Fizyka_object</object>
@@ -350,6 +351,7 @@
     <timeline>timelines\Detektywistyczna_Punkty_Add</timeline>
     <timeline>timelines\Fizyka_Punkty_Add</timeline>
     <timeline>timelines\Wejscie</timeline>
+    <timeline>timelines\Do_Dialogow</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\Menu_Glowne</room>
