@@ -1324,7 +1324,7 @@ ds_map_clear(czy);
     </event>
   </entry>
   <entry>
-    <step>1550</step>
+    <step>1670</step>
     <event>
       <action>
         <libid>1</libid>
