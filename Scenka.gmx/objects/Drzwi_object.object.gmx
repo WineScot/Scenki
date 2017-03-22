@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="4" ename="Example_Object">
+    <event eventtype="4" ename="Nauczyciel_object">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -30,12 +30,14 @@ var przycisk;
 przycisk=keyboard_check_pressed(vk_enter);
 if (przycisk &amp;&amp; !rotated)
 {  
-    timeline_index = Wejscie;
-    timeline_running = true;
     with(drzwi2.id)
     {
-        instance_destroy();
+        sprite_index=Nic;
     }
+    
+    timeline_index = Wejscie;
+    timeline_position = 0;
+    timeline_running = true;
 
 }
 

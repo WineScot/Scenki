@@ -140,7 +140,7 @@ pressed=0;</code>
     <instance objName="Fizyka_Dotimelina_object" x="0" y="96" name="inst_39D98175" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Wylaczanie_Do_Menu_object" x="0" y="128" name="inst_E21263A5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Example_Dotimelina_2_object" x="0" y="64" name="inst_ED989F65" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Zmiana_Predkosci_object" x="448" y="256" name="inst_16218361" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="Zmiana_Predkosci_object" x="384" y="256" name="inst_16218361" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Menu_Wybierania_Postaci_obj" x="0" y="0" name="inst_574192E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="0" y="0" name="inst_3F92A6AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="0" y="64" name="inst_8185025D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -188,7 +188,6 @@ pressed=0;</code>
     <instance objName="sufit_object" x="576" y="64" name="inst_06646FD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="576" y="32" name="inst_E84D7DB5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="576" y="0" name="inst_C5BF5B8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="sufit_object" x="448" y="288" name="inst_21C61ACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="256" name="inst_3AA771EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="224" name="inst_AC933254" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="sufit_object" x="448" y="192" name="inst_E8B75A22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -210,9 +209,9 @@ pressed=0;</code>
     <instance objName="Blat_Bokiem_object" x="416" y="288" name="inst_035CABF9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Projector_object" x="352" y="145" name="inst_CC326564" locked="0" code="" scaleX="1" scaleY="-1" colour="4294967295" rotation="0"/>
     <instance objName="Tablica_inter" x="154" y="111" name="inst_2AE23CD9" locked="0" code="" scaleX="3.70967745780945" scaleY="2.8125" colour="4294967295" rotation="0"/>
-    <instance objName="sufit_object" x="448" y="352" name="inst_0F38A8BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="Zmiana_Predkosci_object" x="384" y="224" name="inst_DC24310E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="Nauczyciel_object" x="32" y="480" name="inst_EB5B5DEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sufit_object" x="448" y="352" name="inst_B6D8ABC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="sufit_object" x="448" y="288" name="inst_521F4D76" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="Podloga" x="416" y="384" w="32" h="321" xo="0" yo="0" id="10000002" name="inst_5AC0E440" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
