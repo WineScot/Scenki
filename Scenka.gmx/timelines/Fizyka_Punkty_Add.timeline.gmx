@@ -1107,7 +1107,95 @@ active[14]=0;
     </event>
   </entry>
   <entry>
+    <step>1350</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=208;
+pkt_yd[momentd]=160; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="Dobrze, to moze na dokladke zrobimy kartko...";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
     <step>1400</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>Text_Box("Nauczycielu! Bo my mamy pytanie!",2,Girl_03_object.x,Girl_03_object.y,-1,-1,2);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1480</step>
+    <event>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>momentd++;
+pkt_xd[momentd]=208;
+pkt_yd[momentd]=160; 
+actived[momentd]=1; 
+instancjad[momentd]=Nauczyciel_object.id; 
+tekst[momentd]="...";
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+  </entry>
+  <entry>
+    <step>1550</step>
     <event>
       <action>
         <libid>1</libid>
