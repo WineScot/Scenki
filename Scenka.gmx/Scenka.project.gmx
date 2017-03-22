@@ -296,6 +296,7 @@
     <objects name="Temps">
       <object>objects\Menu_Wybierania_Postaci_obj</object>
       <object>objects\Naszybko</object>
+      <object>objects\Naszybkav2</object>
       <object>objects\text_obj</object>
       <object>objects\Ekwipunek_obj</object>
       <object>objects\Dotimelina_object</object>
