@@ -8,7 +8,7 @@ W grze mamy możliwość odegrania trzech krótkich scenek :
 
 * Automaty
 * Lekcja fizyki
-* Dochodzenie
+* Śledztwo
 
 Na początek scenka jest przedstawiana. W tym czasie gracz może postarać się zapamiętać jak najwięcej szczegółów dotyczących jej przebiegu. Następnie gracz stara się jak najdokładniej scenkę. Musi on pokierować działaniami pewnych bohaterów, tak aby byli w stanie wykonać zawarte w scence akcje. Bohaterowie niekontrolowani przez gracza będą postępować zgodnie ze scenką, o ile działania gracza im tego nie uniemożliwią.
 
