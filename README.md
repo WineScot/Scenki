@@ -6,18 +6,17 @@
 
 W grze mamy możliwość odegrania trzech krótkich scenek :
 
+* [Automaty] *
 * []
 
 ### Instalacja
 
 Należy uruchomić plik Scenki.gmx i podążać z kolejnymi krokami instalacji.
 
-## Authors
+## Autorzy
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Michał Borowski** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Artur Matyjasek**
+* **Damian Opoka**
+* **Wojciech Podmokły**
+* **Antoni Struski** - *grafika*
